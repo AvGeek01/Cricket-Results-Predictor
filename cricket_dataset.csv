@@ -1,0 +1,1001 @@
+match_id,team1,team2,venue,toss_winner,toss_decision,team1_score,team2_score,team1_wickets,team2_wickets,overs,match_type,team1_ranking,team2_ranking,team1_form,team2_form,winner
+1,England,South Africa,Mumbai,South Africa,field,151,149,4,8,20,T20,1,8,2,0,England
+2,Oman,South Africa,London,Oman,bat,127,190,10,6,20,T20,7,2,0,3,South Africa
+3,New Zealand,South Africa,Auckland,New Zealand,bat,178,144,8,3,20,T20,6,6,3,1,New Zealand
+4,South Africa,India,Sydney,South Africa,bat,131,153,5,10,20,T20,5,3,3,1,India
+5,England,New Zealand,Muscat,New Zealand,field,285,265,5,8,50,ODI,6,10,1,1,England
+6,England,Australia,London,England,field,292,269,7,4,50,ODI,8,3,2,3,England
+7,South Africa,Australia,Muscat,South Africa,bat,268,210,4,9,50,ODI,7,9,1,2,South Africa
+8,Australia,Oman,Muscat,Oman,bat,190,162,9,5,20,T20,7,10,2,2,Australia
+9,South Africa,England,Muscat,England,field,266,230,6,10,50,ODI,2,1,3,1,South Africa
+10,India,England,Auckland,India,field,122,160,10,5,20,T20,7,5,0,1,England
+11,India,Australia,Delhi,Australia,field,271,216,7,3,50,ODI,10,2,1,5,India
+12,South Africa,New Zealand,Auckland,South Africa,bat,226,236,7,8,50,ODI,1,2,4,5,New Zealand
+13,Australia,England,Muscat,England,bat,223,222,7,9,50,ODI,4,5,3,0,Australia
+14,Australia,Afghanistan,Cape Town,Australia,field,203,298,7,9,50,ODI,5,2,0,2,Afghanistan
+15,India,New Zealand,London,India,field,350,214,6,9,50,ODI,9,1,4,5,India
+16,Afghanistan,Australia,Dubai,Australia,bat,131,152,5,6,20,T20,4,9,0,2,Australia
+17,Afghanistan,India,Auckland,Afghanistan,field,237,304,8,8,50,ODI,2,5,4,0,India
+18,Oman,New Zealand,Chennai,Oman,bat,319,218,6,8,50,ODI,6,7,5,1,Oman
+19,New Zealand,Afghanistan,Sydney,Afghanistan,field,212,266,6,8,50,ODI,5,9,1,3,Afghanistan
+20,Oman,Australia,Muscat,Australia,field,206,348,7,4,50,ODI,2,7,2,0,Australia
+21,New Zealand,England,Delhi,England,bat,181,148,8,7,20,T20,1,1,5,0,New Zealand
+22,England,Afghanistan,Chennai,England,bat,338,271,10,7,50,ODI,10,6,5,5,England
+23,South Africa,New Zealand,Chennai,New Zealand,field,270,310,9,4,50,ODI,5,4,1,1,New Zealand
+24,Afghanistan,Oman,Chennai,Oman,bat,173,189,8,7,20,T20,3,6,1,2,Oman
+25,Afghanistan,India,Cape Town,India,bat,173,181,5,8,20,T20,1,10,5,4,India
+26,India,England,Sydney,England,field,250,302,10,8,50,ODI,1,4,0,4,England
+27,England,New Zealand,Dubai,England,bat,169,121,5,5,20,T20,10,10,5,0,England
+28,South Africa,England,London,England,field,241,320,9,4,50,ODI,9,3,0,0,England
+29,India,South Africa,London,South Africa,bat,164,164,9,3,20,T20,6,4,3,1,South Africa
+30,Afghanistan,Australia,Delhi,Australia,field,237,286,5,3,50,ODI,2,3,2,4,Australia
+31,New Zealand,England,Sydney,New Zealand,field,326,214,6,9,50,ODI,3,9,1,4,New Zealand
+32,New Zealand,Afghanistan,Muscat,Afghanistan,bat,170,143,3,6,20,T20,4,4,3,5,New Zealand
+33,New Zealand,Afghanistan,Dubai,New Zealand,field,296,244,10,9,50,ODI,4,7,0,2,New Zealand
+34,England,South Africa,Cape Town,England,bat,160,158,8,3,20,T20,6,5,2,3,England
+35,Oman,Australia,Muscat,Australia,bat,166,198,9,8,20,T20,9,8,0,3,Australia
+36,Afghanistan,India,Auckland,Afghanistan,field,221,260,7,4,50,ODI,3,1,5,4,India
+37,India,Afghanistan,Cape Town,Afghanistan,field,184,191,4,9,20,T20,2,3,4,5,Afghanistan
+38,Afghanistan,England,Mumbai,Afghanistan,bat,126,194,7,9,20,T20,3,9,5,3,England
+39,Afghanistan,England,Muscat,England,field,267,204,5,3,50,ODI,3,2,3,0,Afghanistan
+40,New Zealand,Afghanistan,Cape Town,Afghanistan,bat,145,134,9,3,20,T20,5,4,1,3,New Zealand
+41,Australia,South Africa,Auckland,South Africa,field,125,185,6,6,20,T20,1,10,4,1,South Africa
+42,Oman,Afghanistan,Delhi,Afghanistan,field,203,213,8,8,50,ODI,4,1,3,5,Afghanistan
+43,South Africa,Afghanistan,Auckland,South Africa,field,307,313,8,7,50,ODI,9,7,0,0,Afghanistan
+44,India,Oman,Chennai,India,bat,284,241,6,7,50,ODI,6,1,5,0,India
+45,Afghanistan,Australia,Mumbai,Afghanistan,bat,200,161,6,9,20,T20,5,3,1,2,Afghanistan
+46,Australia,Afghanistan,Mumbai,Australia,bat,327,213,8,10,50,ODI,9,10,3,4,Australia
+47,India,Oman,Auckland,India,field,139,122,10,6,20,T20,6,5,4,0,India
+48,India,New Zealand,Cape Town,India,bat,131,122,6,3,20,T20,3,6,1,5,India
+49,England,Afghanistan,Mumbai,England,bat,164,183,8,10,20,T20,5,8,5,2,Afghanistan
+50,Australia,England,Mumbai,England,field,175,160,9,7,20,T20,10,3,5,5,Australia
+51,England,Australia,Chennai,England,field,317,325,9,7,50,ODI,5,3,3,5,Australia
+52,New Zealand,Australia,Chennai,New Zealand,bat,277,325,8,9,50,ODI,7,6,3,2,Australia
+53,England,Oman,Dubai,Oman,field,131,141,6,3,20,T20,9,2,0,5,Oman
+54,Afghanistan,Oman,Mumbai,Oman,field,132,171,6,3,20,T20,4,5,5,5,Oman
+55,Australia,Afghanistan,Muscat,Australia,field,150,133,9,4,20,T20,3,9,5,5,Australia
+56,Australia,Oman,London,Australia,bat,214,328,7,5,50,ODI,2,9,2,5,Oman
+57,New Zealand,Oman,Mumbai,Oman,field,189,182,7,9,20,T20,7,9,3,3,New Zealand
+58,India,Australia,Muscat,Australia,bat,189,137,9,10,20,T20,5,4,4,2,India
+59,England,New Zealand,Mumbai,New Zealand,bat,281,228,7,9,50,ODI,9,3,1,0,England
+60,India,England,Auckland,India,field,214,331,8,9,50,ODI,4,1,5,1,England
+61,New Zealand,Afghanistan,Cape Town,New Zealand,field,311,201,3,6,50,ODI,1,4,2,4,New Zealand
+62,New Zealand,Afghanistan,London,New Zealand,bat,143,122,8,10,20,T20,9,4,0,4,New Zealand
+63,South Africa,England,Cape Town,South Africa,field,326,217,3,3,50,ODI,1,5,2,5,South Africa
+64,England,New Zealand,Mumbai,New Zealand,bat,277,214,4,7,50,ODI,4,2,3,4,England
+65,New Zealand,Australia,Dubai,New Zealand,field,193,151,8,10,20,T20,6,8,0,0,New Zealand
+66,England,Oman,Muscat,England,field,197,130,9,7,20,T20,1,5,5,4,England
+67,India,South Africa,Chennai,South Africa,field,183,125,4,7,20,T20,5,10,5,3,India
+68,South Africa,Oman,Mumbai,South Africa,field,220,350,8,9,50,ODI,6,4,4,5,Oman
+69,South Africa,Australia,Chennai,Australia,bat,129,190,8,6,20,T20,7,7,4,5,Australia
+70,South Africa,Oman,Cape Town,South Africa,bat,208,292,5,10,50,ODI,4,8,5,5,Oman
+71,England,South Africa,Sydney,South Africa,field,324,286,4,3,50,ODI,7,2,5,2,England
+72,India,Afghanistan,Cape Town,Afghanistan,field,239,328,10,10,50,ODI,10,10,0,1,Afghanistan
+73,Afghanistan,South Africa,Sydney,Afghanistan,field,173,179,7,6,20,T20,9,9,3,1,South Africa
+74,India,Oman,Cape Town,Oman,field,303,347,4,10,50,ODI,5,10,1,1,Oman
+75,England,South Africa,Muscat,South Africa,field,239,222,6,6,50,ODI,1,3,4,3,England
+76,New Zealand,Afghanistan,London,Afghanistan,bat,189,161,9,6,20,T20,2,2,2,3,New Zealand
+77,India,Australia,Muscat,Australia,bat,336,252,9,10,50,ODI,7,7,3,3,India
+78,South Africa,Australia,Chennai,Australia,field,279,246,9,3,50,ODI,7,1,5,2,South Africa
+79,India,Afghanistan,Dubai,Afghanistan,bat,255,221,5,7,50,ODI,9,8,4,5,India
+80,New Zealand,Australia,Sydney,New Zealand,bat,156,121,5,4,20,T20,2,1,2,3,New Zealand
+81,New Zealand,Afghanistan,London,New Zealand,bat,262,251,8,10,50,ODI,6,1,0,2,New Zealand
+82,South Africa,Australia,Dubai,Australia,field,223,298,3,4,50,ODI,6,7,0,0,Australia
+83,India,Afghanistan,London,Afghanistan,bat,227,228,4,5,50,ODI,4,8,5,3,Afghanistan
+84,Oman,Afghanistan,Mumbai,Afghanistan,bat,147,159,10,5,20,T20,3,8,3,4,Afghanistan
+85,Afghanistan,England,Cape Town,England,field,136,194,6,10,20,T20,8,6,3,3,England
+86,England,New Zealand,Delhi,England,bat,160,194,3,5,20,T20,4,8,1,0,New Zealand
+87,Australia,England,Muscat,Australia,field,123,144,6,3,20,T20,1,4,2,0,England
+88,Afghanistan,New Zealand,Sydney,New Zealand,bat,259,216,4,10,50,ODI,5,1,1,4,Afghanistan
+89,England,Australia,Sydney,Australia,field,312,231,10,7,50,ODI,10,2,5,5,England
+90,Afghanistan,England,Sydney,England,field,325,315,8,9,50,ODI,9,7,5,3,Afghanistan
+91,South Africa,New Zealand,London,New Zealand,field,254,340,4,3,50,ODI,1,7,3,2,New Zealand
+92,England,Afghanistan,Chennai,England,field,272,280,3,9,50,ODI,3,4,3,4,Afghanistan
+93,South Africa,Australia,Cape Town,Australia,field,166,133,5,10,20,T20,8,9,1,3,South Africa
+94,South Africa,Oman,Delhi,South Africa,field,179,122,8,9,20,T20,1,4,1,4,South Africa
+95,South Africa,New Zealand,London,South Africa,field,302,267,3,8,50,ODI,8,5,5,5,South Africa
+96,India,New Zealand,Sydney,New Zealand,bat,141,168,7,5,20,T20,2,1,1,5,New Zealand
+97,New Zealand,Australia,Dubai,Australia,field,243,319,10,7,50,ODI,10,8,4,1,Australia
+98,Afghanistan,Australia,Delhi,Afghanistan,field,154,148,8,3,20,T20,2,4,3,2,Afghanistan
+99,New Zealand,India,Auckland,India,field,143,173,3,9,20,T20,2,8,2,1,India
+100,South Africa,New Zealand,London,New Zealand,field,180,125,7,9,20,T20,9,8,0,2,South Africa
+101,Oman,New Zealand,Sydney,New Zealand,bat,290,291,8,10,50,ODI,4,8,4,0,New Zealand
+102,England,India,Mumbai,India,field,158,161,7,4,20,T20,3,5,1,0,India
+103,Afghanistan,New Zealand,Dubai,New Zealand,field,277,350,4,4,50,ODI,7,1,0,3,New Zealand
+104,New Zealand,Australia,Chennai,Australia,field,173,150,3,6,20,T20,5,7,4,1,New Zealand
+105,Australia,Oman,Dubai,Australia,bat,349,270,6,3,50,ODI,4,6,2,2,Australia
+106,England,South Africa,Cape Town,England,field,258,270,9,5,50,ODI,1,4,1,5,South Africa
+107,England,Afghanistan,Auckland,England,field,299,229,5,3,50,ODI,10,9,4,3,England
+108,India,Oman,Auckland,India,field,268,308,10,9,50,ODI,3,10,4,1,Oman
+109,Afghanistan,New Zealand,Auckland,Afghanistan,bat,195,134,9,5,20,T20,7,10,3,0,Afghanistan
+110,Australia,South Africa,London,Australia,bat,206,220,4,6,50,ODI,2,10,3,4,South Africa
+111,India,Australia,Cape Town,Australia,field,274,293,10,9,50,ODI,8,6,5,5,Australia
+112,Afghanistan,Australia,Mumbai,Afghanistan,field,133,190,7,3,20,T20,9,2,2,1,Australia
+113,South Africa,New Zealand,Delhi,South Africa,bat,122,195,3,9,20,T20,6,4,5,1,New Zealand
+114,Australia,England,Muscat,Australia,field,132,134,7,6,20,T20,7,6,1,2,England
+115,Oman,New Zealand,Mumbai,New Zealand,field,259,207,3,5,50,ODI,1,6,4,1,Oman
+116,England,New Zealand,Chennai,New Zealand,bat,315,236,3,8,50,ODI,7,4,3,2,England
+117,Australia,England,Mumbai,Australia,field,209,237,9,9,50,ODI,2,6,5,1,England
+118,New Zealand,Australia,Mumbai,Australia,bat,242,322,5,10,50,ODI,6,5,1,2,Australia
+119,New Zealand,Australia,Chennai,Australia,bat,155,187,10,8,20,T20,1,2,2,5,Australia
+120,Australia,New Zealand,Dubai,Australia,field,339,290,8,5,50,ODI,9,3,1,0,Australia
+121,Oman,England,Mumbai,England,field,313,221,5,3,50,ODI,6,7,5,4,Oman
+122,Afghanistan,South Africa,Cape Town,South Africa,bat,304,268,10,4,50,ODI,10,2,4,0,Afghanistan
+123,Oman,India,London,India,bat,345,233,6,4,50,ODI,8,3,0,2,Oman
+124,New Zealand,South Africa,Muscat,South Africa,field,345,269,3,4,50,ODI,9,10,4,1,New Zealand
+125,India,England,Chennai,India,bat,155,175,10,7,20,T20,8,5,1,0,England
+126,New Zealand,Afghanistan,Dubai,Afghanistan,bat,148,167,8,4,20,T20,8,3,3,1,Afghanistan
+127,India,Afghanistan,London,Afghanistan,field,217,319,7,3,50,ODI,8,5,3,1,Afghanistan
+128,England,Afghanistan,Dubai,England,bat,317,237,8,4,50,ODI,9,6,5,4,England
+129,South Africa,India,Sydney,India,field,264,253,3,9,50,ODI,8,6,3,3,South Africa
+130,Afghanistan,South Africa,Delhi,South Africa,bat,193,183,9,9,20,T20,5,1,1,1,Afghanistan
+131,South Africa,England,Auckland,South Africa,field,321,331,5,9,50,ODI,9,5,5,0,England
+132,Oman,England,Chennai,Oman,bat,143,175,10,9,20,T20,3,6,3,3,England
+133,South Africa,Australia,Chennai,Australia,bat,126,166,3,5,20,T20,3,10,3,3,Australia
+134,Australia,South Africa,Cape Town,Australia,bat,161,194,10,8,20,T20,7,10,3,1,South Africa
+135,South Africa,Australia,London,Australia,bat,135,145,7,3,20,T20,2,6,4,2,Australia
+136,Australia,England,Dubai,Australia,bat,271,202,4,9,50,ODI,1,1,0,3,Australia
+137,Afghanistan,Oman,Muscat,Oman,bat,240,267,9,5,50,ODI,3,8,0,2,Oman
+138,Australia,South Africa,Chennai,South Africa,field,185,159,6,6,20,T20,2,7,2,5,Australia
+139,Australia,South Africa,Chennai,South Africa,bat,279,213,5,6,50,ODI,8,4,2,4,Australia
+140,New Zealand,Oman,Muscat,Oman,field,238,265,4,6,50,ODI,6,1,5,1,Oman
+141,England,Afghanistan,Delhi,Afghanistan,field,259,220,10,10,50,ODI,2,5,2,3,England
+142,India,New Zealand,Dubai,New Zealand,field,200,336,7,9,50,ODI,6,7,1,4,New Zealand
+143,Australia,New Zealand,London,Australia,field,196,136,6,10,20,T20,6,4,5,2,Australia
+144,New Zealand,England,London,England,bat,273,227,6,8,50,ODI,6,2,5,3,New Zealand
+145,England,Oman,London,Oman,bat,149,143,3,8,20,T20,7,5,5,2,England
+146,South Africa,Afghanistan,Muscat,Afghanistan,field,129,128,8,7,20,T20,4,3,5,4,South Africa
+147,Oman,Australia,Mumbai,Australia,field,229,225,8,3,50,ODI,9,2,2,3,Oman
+148,Australia,South Africa,Muscat,South Africa,field,142,197,4,10,20,T20,8,10,1,0,South Africa
+149,England,Afghanistan,Auckland,England,field,325,250,4,3,50,ODI,4,2,2,3,England
+150,South Africa,New Zealand,Mumbai,New Zealand,field,234,325,6,9,50,ODI,2,4,0,1,New Zealand
+151,New Zealand,Oman,Cape Town,Oman,bat,312,314,6,9,50,ODI,9,4,3,5,Oman
+152,Oman,India,London,Oman,bat,344,293,5,3,50,ODI,5,5,1,5,Oman
+153,New Zealand,Afghanistan,Sydney,Afghanistan,bat,290,289,6,7,50,ODI,10,8,0,0,New Zealand
+154,New Zealand,Afghanistan,Cape Town,New Zealand,bat,180,188,5,8,20,T20,7,9,4,5,Afghanistan
+155,New Zealand,India,Delhi,New Zealand,bat,166,143,7,6,20,T20,3,10,4,1,New Zealand
+156,England,Oman,Dubai,England,bat,228,317,6,6,50,ODI,10,3,0,2,Oman
+157,South Africa,New Zealand,Delhi,South Africa,bat,145,178,9,5,20,T20,8,4,3,0,New Zealand
+158,Australia,England,Chennai,Australia,field,229,202,8,6,50,ODI,8,6,4,4,Australia
+159,New Zealand,Australia,Cape Town,Australia,field,182,179,9,6,20,T20,1,2,2,3,New Zealand
+160,New Zealand,India,Muscat,India,field,171,174,9,8,20,T20,10,3,0,2,India
+161,England,Oman,Auckland,England,field,230,306,4,3,50,ODI,5,7,4,2,Oman
+162,Oman,Afghanistan,Auckland,Afghanistan,field,128,143,5,10,20,T20,2,5,1,1,Afghanistan
+163,Oman,Afghanistan,Auckland,Oman,bat,290,303,7,6,50,ODI,10,4,3,0,Afghanistan
+164,Australia,India,Dubai,India,field,177,183,9,6,20,T20,7,2,1,0,India
+165,England,Oman,Mumbai,Oman,bat,263,216,4,8,50,ODI,6,4,3,3,England
+166,Oman,India,Chennai,Oman,field,220,243,5,6,50,ODI,8,2,1,1,India
+167,Australia,Oman,Dubai,Australia,field,209,200,8,10,50,ODI,2,10,2,3,Australia
+168,South Africa,England,Cape Town,South Africa,bat,240,345,7,9,50,ODI,5,6,2,4,England
+169,Afghanistan,India,Cape Town,Afghanistan,bat,336,200,6,4,50,ODI,2,5,0,4,Afghanistan
+170,England,Afghanistan,Chennai,Afghanistan,bat,302,207,4,3,50,ODI,1,7,3,5,England
+171,New Zealand,Afghanistan,Muscat,New Zealand,bat,299,302,9,4,50,ODI,10,8,0,0,Afghanistan
+172,Oman,New Zealand,Auckland,Oman,bat,172,153,5,8,20,T20,6,4,1,4,Oman
+173,New Zealand,South Africa,Cape Town,South Africa,bat,265,206,10,4,50,ODI,5,3,1,2,New Zealand
+174,New Zealand,Australia,London,Australia,field,202,257,4,10,50,ODI,9,6,4,2,Australia
+175,England,India,Delhi,England,bat,148,148,3,6,20,T20,3,4,2,2,India
+176,New Zealand,India,Cape Town,New Zealand,bat,129,176,10,6,20,T20,4,10,5,4,India
+177,South Africa,New Zealand,Auckland,South Africa,field,229,306,3,8,50,ODI,4,1,1,3,New Zealand
+178,Afghanistan,South Africa,Dubai,South Africa,field,139,181,3,5,20,T20,3,2,0,3,South Africa
+179,New Zealand,Afghanistan,Dubai,New Zealand,bat,130,123,10,3,20,T20,9,3,1,1,New Zealand
+180,Afghanistan,New Zealand,Chennai,New Zealand,field,298,280,8,3,50,ODI,2,4,3,2,Afghanistan
+181,South Africa,Australia,London,South Africa,bat,299,279,9,3,50,ODI,9,3,2,3,South Africa
+182,New Zealand,South Africa,Cape Town,South Africa,field,131,124,5,7,20,T20,3,5,2,4,New Zealand
+183,Oman,England,Chennai,Oman,field,233,290,10,3,50,ODI,10,1,4,1,England
+184,Oman,South Africa,Auckland,South Africa,field,266,311,5,6,50,ODI,7,10,2,3,South Africa
+185,India,New Zealand,Mumbai,India,field,225,304,6,5,50,ODI,3,10,4,4,New Zealand
+186,South Africa,Australia,Cape Town,Australia,bat,153,122,7,9,20,T20,5,4,5,3,South Africa
+187,England,India,Mumbai,India,field,328,307,5,6,50,ODI,5,2,3,5,England
+188,Australia,India,London,Australia,field,153,190,10,4,20,T20,1,2,2,4,India
+189,England,Oman,Chennai,England,bat,237,211,10,5,50,ODI,3,8,2,0,England
+190,Afghanistan,Australia,Muscat,Afghanistan,bat,184,172,7,3,20,T20,3,9,3,5,Afghanistan
+191,England,South Africa,Cape Town,England,field,187,157,4,6,20,T20,6,2,3,1,England
+192,England,India,Delhi,England,bat,201,217,3,4,50,ODI,6,5,0,5,India
+193,Australia,Oman,Dubai,Oman,bat,153,156,3,10,20,T20,1,7,4,2,Oman
+194,South Africa,Australia,Chennai,Australia,bat,180,129,10,7,20,T20,3,9,0,0,South Africa
+195,England,New Zealand,Auckland,New Zealand,bat,222,342,8,6,50,ODI,1,9,5,3,New Zealand
+196,New Zealand,South Africa,Delhi,South Africa,bat,171,130,10,6,20,T20,6,8,1,1,New Zealand
+197,England,New Zealand,Muscat,England,bat,187,165,4,6,20,T20,4,8,4,5,England
+198,India,Australia,Auckland,India,bat,181,171,6,7,20,T20,3,2,0,3,India
+199,New Zealand,Afghanistan,London,New Zealand,bat,231,207,10,5,50,ODI,6,2,2,1,New Zealand
+200,India,New Zealand,Mumbai,New Zealand,bat,160,177,6,9,20,T20,8,5,3,0,New Zealand
+201,Oman,New Zealand,Cape Town,Oman,field,129,166,8,9,20,T20,9,10,4,1,New Zealand
+202,England,India,Auckland,India,bat,172,195,9,7,20,T20,7,5,5,0,India
+203,South Africa,England,Muscat,South Africa,bat,301,290,3,7,50,ODI,7,5,2,1,South Africa
+204,South Africa,New Zealand,Auckland,New Zealand,bat,158,189,4,9,20,T20,2,3,3,5,New Zealand
+205,South Africa,India,Delhi,India,bat,130,182,7,8,20,T20,9,9,2,2,India
+206,India,Australia,Cape Town,Australia,field,200,176,9,5,20,T20,5,3,1,2,India
+207,South Africa,Oman,Chennai,Oman,bat,158,131,7,9,20,T20,2,8,5,4,South Africa
+208,England,Afghanistan,Delhi,Afghanistan,field,120,142,10,3,20,T20,9,7,1,4,Afghanistan
+209,England,Oman,Delhi,England,field,154,169,6,3,20,T20,5,7,3,1,Oman
+210,South Africa,England,Dubai,South Africa,bat,166,121,6,4,20,T20,1,7,5,5,South Africa
+211,Oman,South Africa,Sydney,South Africa,bat,235,210,8,10,50,ODI,7,7,4,0,Oman
+212,Oman,New Zealand,Auckland,Oman,bat,252,349,6,4,50,ODI,4,5,0,1,New Zealand
+213,Afghanistan,Australia,Sydney,Afghanistan,bat,205,332,5,4,50,ODI,10,1,5,4,Australia
+214,New Zealand,Afghanistan,Dubai,New Zealand,bat,288,315,5,3,50,ODI,7,9,4,4,Afghanistan
+215,Oman,New Zealand,Chennai,Oman,field,169,132,3,4,20,T20,9,2,0,5,Oman
+216,Afghanistan,New Zealand,Muscat,New Zealand,bat,273,217,3,6,50,ODI,7,6,4,5,Afghanistan
+217,India,Australia,Chennai,Australia,bat,277,201,7,4,50,ODI,7,5,0,4,India
+218,New Zealand,Australia,Mumbai,New Zealand,bat,124,123,9,8,20,T20,9,1,0,2,New Zealand
+219,Oman,South Africa,Mumbai,Oman,bat,157,122,6,9,20,T20,8,2,2,0,Oman
+220,India,South Africa,Muscat,South Africa,bat,181,177,5,3,20,T20,6,6,3,4,India
+221,Afghanistan,South Africa,Delhi,Afghanistan,bat,237,265,8,6,50,ODI,2,7,3,2,South Africa
+222,Oman,Australia,Chennai,Australia,bat,124,188,8,4,20,T20,7,9,3,2,Australia
+223,Australia,Oman,London,Australia,field,281,216,8,4,50,ODI,4,4,0,5,Australia
+224,England,Australia,Mumbai,England,field,182,157,4,7,20,T20,1,2,5,2,England
+225,India,Afghanistan,London,Afghanistan,field,142,140,3,4,20,T20,2,3,0,0,India
+226,England,Afghanistan,Delhi,England,bat,238,344,10,4,50,ODI,2,3,0,5,Afghanistan
+227,New Zealand,Oman,Mumbai,Oman,field,225,248,8,10,50,ODI,8,9,0,5,Oman
+228,England,India,Auckland,England,field,168,194,9,7,20,T20,10,5,0,1,India
+229,England,Australia,Delhi,Australia,field,194,191,8,4,20,T20,2,7,2,2,England
+230,South Africa,New Zealand,Delhi,New Zealand,bat,198,131,6,6,20,T20,4,1,3,3,South Africa
+231,Australia,Afghanistan,Dubai,Australia,bat,125,182,8,7,20,T20,9,4,3,1,Afghanistan
+232,South Africa,New Zealand,Delhi,South Africa,field,254,258,8,10,50,ODI,1,3,1,0,New Zealand
+233,India,Afghanistan,Cape Town,India,bat,184,137,6,7,20,T20,3,4,0,2,India
+234,South Africa,New Zealand,Cape Town,South Africa,field,175,123,10,5,20,T20,2,10,3,4,South Africa
+235,South Africa,Australia,London,Australia,bat,189,144,10,5,20,T20,4,1,1,3,South Africa
+236,Afghanistan,New Zealand,Delhi,New Zealand,field,283,297,7,4,50,ODI,9,4,3,5,New Zealand
+237,India,Australia,Muscat,Australia,field,346,271,10,9,50,ODI,3,3,1,0,India
+238,Australia,England,London,Australia,field,122,159,4,6,20,T20,5,9,3,3,England
+239,Oman,England,London,Oman,field,309,263,7,10,50,ODI,3,2,3,2,Oman
+240,Oman,India,Muscat,Oman,bat,347,345,6,5,50,ODI,3,7,1,3,Oman
+241,Afghanistan,South Africa,Mumbai,South Africa,field,296,277,5,6,50,ODI,4,10,2,3,Afghanistan
+242,Australia,India,Mumbai,Australia,field,254,209,7,3,50,ODI,5,7,5,5,Australia
+243,England,New Zealand,Delhi,New Zealand,field,163,133,7,9,20,T20,8,8,2,5,England
+244,South Africa,Oman,London,Oman,bat,331,322,5,4,50,ODI,7,4,2,0,South Africa
+245,India,England,Muscat,England,bat,150,129,8,8,20,T20,3,1,1,1,India
+246,New Zealand,Australia,Chennai,New Zealand,field,127,192,10,6,20,T20,2,10,0,4,Australia
+247,New Zealand,Oman,Muscat,Oman,field,135,174,4,3,20,T20,1,3,4,4,Oman
+248,Afghanistan,England,Sydney,England,field,168,135,8,9,20,T20,5,8,2,0,Afghanistan
+249,South Africa,Oman,Dubai,South Africa,bat,235,245,3,9,50,ODI,1,3,3,1,Oman
+250,Australia,India,Muscat,India,bat,197,145,6,10,20,T20,7,8,5,3,Australia
+251,India,Oman,Dubai,Oman,field,284,315,3,9,50,ODI,6,6,3,3,Oman
+252,Australia,England,Cape Town,Australia,bat,336,270,8,4,50,ODI,5,8,5,4,Australia
+253,New Zealand,South Africa,Delhi,New Zealand,field,168,186,6,5,20,T20,10,6,2,1,South Africa
+254,South Africa,England,London,South Africa,bat,350,343,4,5,50,ODI,4,10,3,3,South Africa
+255,South Africa,Afghanistan,Sydney,Afghanistan,bat,255,307,8,7,50,ODI,7,4,5,1,Afghanistan
+256,Oman,New Zealand,Auckland,New Zealand,field,193,142,9,8,20,T20,8,5,1,4,Oman
+257,Afghanistan,Oman,Cape Town,Afghanistan,field,278,325,10,10,50,ODI,10,3,1,5,Oman
+258,New Zealand,England,Sydney,England,bat,207,204,4,7,50,ODI,9,9,2,1,New Zealand
+259,Oman,Afghanistan,Delhi,Afghanistan,bat,125,141,3,5,20,T20,1,2,2,5,Afghanistan
+260,New Zealand,Australia,Delhi,New Zealand,bat,199,190,4,3,20,T20,10,1,2,2,New Zealand
+261,Oman,South Africa,Sydney,South Africa,bat,225,328,3,5,50,ODI,1,10,2,0,South Africa
+262,India,Oman,Chennai,Oman,field,164,124,6,8,20,T20,6,7,2,2,India
+263,Oman,South Africa,London,Oman,field,214,266,6,5,50,ODI,7,3,5,0,South Africa
+264,Australia,Oman,Sydney,Australia,field,124,190,3,10,20,T20,5,8,0,4,Oman
+265,Oman,Afghanistan,Chennai,Oman,field,180,150,8,10,20,T20,9,10,1,1,Oman
+266,South Africa,Oman,Auckland,South Africa,field,206,312,3,8,50,ODI,3,9,4,1,Oman
+267,New Zealand,England,Delhi,England,field,345,303,6,8,50,ODI,5,1,2,5,New Zealand
+268,England,New Zealand,London,England,field,148,166,6,7,20,T20,1,1,0,5,New Zealand
+269,India,England,Dubai,England,bat,124,200,10,3,20,T20,7,9,0,2,England
+270,Australia,South Africa,Cape Town,South Africa,bat,233,250,9,3,50,ODI,7,4,1,5,South Africa
+271,Australia,New Zealand,Mumbai,New Zealand,field,204,334,9,6,50,ODI,3,5,1,5,New Zealand
+272,New Zealand,England,Cape Town,England,bat,166,153,6,8,20,T20,2,9,1,3,New Zealand
+273,New Zealand,Oman,Muscat,New Zealand,field,195,187,8,4,20,T20,8,3,2,4,New Zealand
+274,New Zealand,Afghanistan,Mumbai,Afghanistan,bat,145,172,7,7,20,T20,4,3,0,4,Afghanistan
+275,South Africa,India,Chennai,South Africa,bat,143,159,8,5,20,T20,8,10,2,5,India
+276,New Zealand,South Africa,Muscat,New Zealand,field,252,324,4,4,50,ODI,5,4,5,4,South Africa
+277,Australia,New Zealand,Dubai,New Zealand,field,166,176,9,4,20,T20,3,6,1,4,New Zealand
+278,Australia,New Zealand,Chennai,Australia,field,220,209,7,4,50,ODI,5,1,2,1,Australia
+279,India,Australia,Dubai,India,bat,254,304,3,10,50,ODI,6,9,1,3,Australia
+280,India,South Africa,Dubai,India,field,336,222,10,4,50,ODI,4,4,2,0,India
+281,England,New Zealand,Mumbai,New Zealand,field,275,249,6,4,50,ODI,5,3,3,2,England
+282,New Zealand,England,Chennai,England,field,163,175,6,6,20,T20,9,2,2,2,England
+283,New Zealand,Oman,London,New Zealand,field,198,144,10,6,20,T20,3,6,2,0,New Zealand
+284,New Zealand,India,Muscat,New Zealand,field,226,310,10,6,50,ODI,3,9,4,5,India
+285,Australia,India,Mumbai,Australia,field,205,328,7,4,50,ODI,1,4,5,1,India
+286,Oman,South Africa,Delhi,Oman,field,322,284,10,10,50,ODI,10,5,3,0,Oman
+287,Australia,England,London,Australia,field,184,130,10,10,20,T20,3,10,4,0,Australia
+288,England,Australia,Dubai,England,bat,175,197,4,4,20,T20,10,9,0,5,Australia
+289,England,Australia,Delhi,Australia,field,186,194,10,10,20,T20,6,3,1,4,Australia
+290,Oman,Australia,Chennai,Australia,field,167,189,10,5,20,T20,7,10,0,1,Australia
+291,India,Australia,Delhi,Australia,bat,267,214,9,7,50,ODI,7,2,4,4,India
+292,South Africa,Australia,Auckland,Australia,field,139,191,4,6,20,T20,4,5,4,2,Australia
+293,India,Oman,London,Oman,field,170,194,8,4,20,T20,6,8,4,3,Oman
+294,England,Oman,Auckland,Oman,field,225,279,5,6,50,ODI,2,9,3,4,Oman
+295,England,Australia,Cape Town,England,bat,130,122,8,5,20,T20,1,10,2,4,England
+296,Oman,England,Cape Town,Oman,field,339,243,9,5,50,ODI,10,4,1,2,Oman
+297,Oman,South Africa,Dubai,South Africa,field,182,181,9,5,20,T20,6,3,1,2,Oman
+298,India,Australia,Chennai,India,bat,335,234,5,10,50,ODI,8,4,1,2,India
+299,South Africa,Australia,Mumbai,South Africa,field,147,157,4,5,20,T20,10,10,5,3,Australia
+300,Australia,South Africa,Sydney,South Africa,bat,186,141,7,4,20,T20,1,6,0,0,Australia
+301,England,Oman,Delhi,Oman,bat,248,335,5,9,50,ODI,5,6,0,4,Oman
+302,South Africa,India,Chennai,South Africa,bat,334,227,6,8,50,ODI,6,7,4,5,South Africa
+303,Oman,England,Auckland,Oman,bat,290,252,4,9,50,ODI,7,8,0,1,Oman
+304,South Africa,New Zealand,Sydney,New Zealand,field,129,157,6,10,20,T20,8,7,1,5,New Zealand
+305,Australia,Oman,Cape Town,Oman,field,295,303,3,4,50,ODI,9,4,4,4,Oman
+306,England,Oman,Mumbai,Oman,bat,212,203,3,7,50,ODI,7,4,0,0,England
+307,England,India,Mumbai,England,field,221,216,3,3,50,ODI,1,7,4,0,England
+308,Afghanistan,New Zealand,Dubai,Afghanistan,field,280,321,9,5,50,ODI,9,9,0,4,New Zealand
+309,Afghanistan,India,Dubai,Afghanistan,field,174,193,7,5,20,T20,8,9,1,4,India
+310,Australia,New Zealand,Mumbai,Australia,field,202,279,5,4,50,ODI,6,7,5,3,New Zealand
+311,New Zealand,India,Auckland,New Zealand,field,350,280,4,10,50,ODI,10,10,2,4,New Zealand
+312,New Zealand,Afghanistan,Auckland,Afghanistan,bat,183,138,7,8,20,T20,5,9,0,1,New Zealand
+313,England,Australia,Mumbai,England,field,331,319,3,4,50,ODI,9,9,2,3,England
+314,Australia,South Africa,Cape Town,South Africa,field,205,210,10,5,50,ODI,1,2,5,4,South Africa
+315,New Zealand,South Africa,Delhi,South Africa,bat,157,158,10,4,20,T20,6,9,0,4,South Africa
+316,Australia,South Africa,Sydney,South Africa,bat,203,349,10,4,50,ODI,3,9,0,0,South Africa
+317,New Zealand,England,Sydney,England,bat,182,167,4,5,20,T20,7,3,3,4,New Zealand
+318,New Zealand,Oman,Chennai,Oman,bat,306,225,4,10,50,ODI,2,6,3,1,New Zealand
+319,Afghanistan,Australia,Dubai,Afghanistan,bat,223,255,9,5,50,ODI,1,10,2,4,Australia
+320,India,Australia,Delhi,India,bat,161,156,8,8,20,T20,4,9,2,5,India
+321,South Africa,England,Muscat,England,bat,153,150,4,6,20,T20,8,9,1,1,South Africa
+322,New Zealand,Oman,Mumbai,Oman,field,330,307,3,7,50,ODI,5,8,3,2,New Zealand
+323,England,Australia,Cape Town,Australia,field,143,189,9,10,20,T20,9,3,1,3,Australia
+324,India,Australia,Mumbai,Australia,bat,305,250,9,8,50,ODI,3,10,3,1,India
+325,Australia,England,Mumbai,Australia,field,303,265,9,10,50,ODI,9,1,3,2,Australia
+326,Oman,India,Dubai,India,bat,139,196,3,7,20,T20,4,8,2,4,India
+327,Afghanistan,Australia,Dubai,Australia,field,266,226,7,9,50,ODI,6,9,3,5,Afghanistan
+328,India,Australia,Mumbai,Australia,bat,342,331,9,6,50,ODI,7,5,5,5,India
+329,South Africa,Oman,Auckland,South Africa,bat,231,267,5,10,50,ODI,3,2,0,3,Oman
+330,South Africa,India,Mumbai,South Africa,bat,163,134,7,7,20,T20,10,9,0,4,South Africa
+331,South Africa,Oman,Auckland,South Africa,bat,142,125,4,10,20,T20,1,1,0,5,South Africa
+332,England,Australia,Sydney,England,field,273,279,8,8,50,ODI,7,5,3,5,Australia
+333,Australia,South Africa,Dubai,Australia,field,136,123,6,7,20,T20,8,8,4,0,Australia
+334,Australia,India,Dubai,Australia,bat,213,335,5,9,50,ODI,2,10,2,2,India
+335,India,Oman,Sydney,India,field,267,274,8,7,50,ODI,8,1,3,2,Oman
+336,Oman,England,Auckland,England,bat,324,329,3,6,50,ODI,3,8,0,3,England
+337,Oman,South Africa,Cape Town,Oman,bat,212,242,4,10,50,ODI,5,9,3,1,South Africa
+338,Australia,Oman,Chennai,Australia,field,140,134,5,3,20,T20,8,3,2,5,Australia
+339,Australia,New Zealand,Mumbai,New Zealand,bat,342,290,3,7,50,ODI,5,3,2,1,Australia
+340,New Zealand,South Africa,Mumbai,New Zealand,field,300,334,7,5,50,ODI,4,5,5,0,South Africa
+341,New Zealand,Oman,Auckland,New Zealand,bat,180,149,10,9,20,T20,2,10,2,2,New Zealand
+342,Afghanistan,England,Mumbai,England,bat,181,164,5,8,20,T20,8,3,5,2,Afghanistan
+343,India,Oman,Dubai,Oman,field,272,220,9,6,50,ODI,9,2,1,1,India
+344,New Zealand,England,Sydney,England,field,258,228,5,8,50,ODI,8,6,1,4,New Zealand
+345,Afghanistan,India,Cape Town,India,field,121,186,7,6,20,T20,5,10,4,5,India
+346,India,Afghanistan,Auckland,India,bat,242,269,3,5,50,ODI,9,8,2,1,Afghanistan
+347,India,Afghanistan,Sydney,Afghanistan,bat,230,271,8,5,50,ODI,2,1,5,0,Afghanistan
+348,Afghanistan,South Africa,Muscat,South Africa,field,244,346,10,10,50,ODI,8,4,0,2,South Africa
+349,New Zealand,South Africa,Mumbai,South Africa,bat,184,187,3,10,20,T20,3,3,2,3,South Africa
+350,India,South Africa,Sydney,South Africa,bat,194,148,10,6,20,T20,5,2,4,1,India
+351,England,South Africa,Muscat,South Africa,bat,168,126,6,4,20,T20,7,6,3,0,England
+352,Oman,New Zealand,Sydney,Oman,field,147,173,10,9,20,T20,9,6,1,3,New Zealand
+353,South Africa,Oman,Auckland,South Africa,field,321,289,6,5,50,ODI,1,6,3,1,South Africa
+354,India,New Zealand,Delhi,India,field,200,343,3,4,50,ODI,6,6,1,2,New Zealand
+355,Afghanistan,Australia,Dubai,Afghanistan,bat,259,218,4,8,50,ODI,1,5,3,5,Afghanistan
+356,Afghanistan,Oman,Dubai,Oman,bat,124,154,7,4,20,T20,7,6,4,2,Oman
+357,South Africa,Australia,London,Australia,bat,153,150,10,6,20,T20,9,1,2,3,South Africa
+358,Oman,New Zealand,London,New Zealand,field,193,140,9,6,20,T20,8,10,2,1,Oman
+359,Afghanistan,South Africa,Muscat,Afghanistan,field,127,185,7,7,20,T20,8,2,1,3,South Africa
+360,Australia,Afghanistan,London,Afghanistan,field,146,160,9,6,20,T20,3,6,1,3,Afghanistan
+361,South Africa,Oman,Mumbai,Oman,bat,295,350,8,10,50,ODI,9,3,5,0,Oman
+362,New Zealand,South Africa,Chennai,New Zealand,bat,270,347,4,4,50,ODI,3,7,5,5,South Africa
+363,India,Australia,Mumbai,India,bat,251,265,4,6,50,ODI,10,3,2,3,Australia
+364,Oman,South Africa,Delhi,South Africa,field,166,171,8,3,20,T20,6,7,2,0,South Africa
+365,Australia,South Africa,Mumbai,Australia,field,223,322,9,7,50,ODI,8,4,2,2,South Africa
+366,New Zealand,India,Auckland,New Zealand,field,151,157,8,9,20,T20,3,3,5,3,India
+367,India,Oman,Sydney,Oman,bat,330,296,5,5,50,ODI,5,3,0,1,India
+368,South Africa,Oman,Sydney,South Africa,field,224,279,4,3,50,ODI,8,1,5,2,Oman
+369,Afghanistan,South Africa,Muscat,South Africa,field,216,225,9,7,50,ODI,10,1,2,2,South Africa
+370,Afghanistan,England,Delhi,England,field,290,220,8,8,50,ODI,7,3,2,4,Afghanistan
+371,India,New Zealand,Cape Town,New Zealand,bat,132,146,6,4,20,T20,8,2,5,3,New Zealand
+372,New Zealand,Afghanistan,Cape Town,Afghanistan,bat,155,160,3,5,20,T20,6,5,3,0,Afghanistan
+373,England,South Africa,Delhi,South Africa,field,126,152,4,6,20,T20,1,7,3,0,South Africa
+374,Oman,Afghanistan,Mumbai,Oman,field,196,173,5,8,20,T20,3,3,0,3,Oman
+375,India,New Zealand,Muscat,India,bat,258,335,9,7,50,ODI,6,5,3,5,New Zealand
+376,Australia,South Africa,Auckland,South Africa,bat,144,152,8,7,20,T20,6,9,0,2,South Africa
+377,South Africa,Australia,Auckland,South Africa,field,350,292,7,9,50,ODI,5,3,3,4,South Africa
+378,South Africa,Australia,Sydney,Australia,bat,179,168,4,4,20,T20,9,5,2,2,South Africa
+379,South Africa,Australia,Muscat,South Africa,field,265,343,5,3,50,ODI,9,3,4,4,Australia
+380,India,England,London,England,field,153,195,9,4,20,T20,2,8,1,4,England
+381,Oman,South Africa,Delhi,Oman,bat,252,286,8,7,50,ODI,6,7,0,2,South Africa
+382,England,Afghanistan,Muscat,Afghanistan,bat,337,314,7,7,50,ODI,5,9,4,1,England
+383,Oman,England,Sydney,England,field,230,320,7,5,50,ODI,4,2,1,0,England
+384,Afghanistan,Oman,Delhi,Oman,bat,121,138,3,10,20,T20,10,6,2,4,Oman
+385,Australia,South Africa,Delhi,South Africa,field,163,185,4,3,20,T20,8,5,4,0,South Africa
+386,New Zealand,Afghanistan,Cape Town,Afghanistan,field,247,257,5,5,50,ODI,7,7,0,2,Afghanistan
+387,Oman,England,Cape Town,Oman,bat,194,158,3,6,20,T20,5,5,2,0,Oman
+388,Afghanistan,South Africa,Dubai,South Africa,bat,330,318,7,4,50,ODI,7,10,3,5,Afghanistan
+389,England,Oman,Auckland,England,field,175,176,5,8,20,T20,9,1,2,5,Oman
+390,England,Oman,Chennai,Oman,bat,254,282,10,9,50,ODI,3,8,0,4,Oman
+391,Oman,New Zealand,Sydney,New Zealand,field,126,133,3,8,20,T20,3,10,5,4,New Zealand
+392,India,Afghanistan,Dubai,India,field,200,323,6,7,50,ODI,10,9,0,3,Afghanistan
+393,Oman,South Africa,Sydney,South Africa,field,331,350,9,5,50,ODI,9,7,4,3,South Africa
+394,Oman,Australia,Mumbai,Oman,bat,349,273,9,4,50,ODI,6,9,1,3,Oman
+395,England,Afghanistan,Mumbai,England,bat,212,332,5,4,50,ODI,2,5,3,5,Afghanistan
+396,South Africa,Australia,Dubai,South Africa,field,257,288,4,9,50,ODI,5,10,3,4,Australia
+397,India,England,Sydney,England,bat,180,145,3,5,20,T20,3,9,2,1,India
+398,New Zealand,Afghanistan,Delhi,New Zealand,bat,229,340,8,3,50,ODI,1,5,5,4,Afghanistan
+399,Oman,New Zealand,Muscat,Oman,field,229,320,10,5,50,ODI,10,2,4,1,New Zealand
+400,Oman,England,Auckland,Oman,bat,154,200,6,4,20,T20,4,5,2,0,England
+401,Oman,Australia,Delhi,Australia,field,175,133,10,7,20,T20,9,4,5,2,Oman
+402,Australia,India,London,Australia,field,158,198,6,10,20,T20,8,1,2,3,India
+403,Afghanistan,England,Delhi,Afghanistan,field,150,167,4,9,20,T20,8,9,5,1,England
+404,Afghanistan,England,Cape Town,England,field,150,132,9,7,20,T20,8,10,5,2,Afghanistan
+405,New Zealand,Afghanistan,Delhi,New Zealand,field,196,194,9,9,20,T20,4,8,2,4,New Zealand
+406,South Africa,India,Dubai,India,bat,197,176,8,5,20,T20,8,9,1,4,South Africa
+407,South Africa,Australia,Sydney,South Africa,bat,177,162,5,6,20,T20,4,2,0,4,South Africa
+408,India,New Zealand,Chennai,India,bat,268,282,9,10,50,ODI,4,2,4,1,New Zealand
+409,England,New Zealand,Muscat,England,bat,165,126,4,6,20,T20,3,3,4,1,England
+410,Australia,England,Sydney,Australia,bat,137,144,3,6,20,T20,10,3,2,5,England
+411,Oman,South Africa,Muscat,Oman,field,329,299,7,3,50,ODI,8,10,3,2,Oman
+412,Oman,India,Dubai,India,bat,128,152,8,10,20,T20,2,10,5,5,India
+413,India,New Zealand,London,New Zealand,field,241,344,4,4,50,ODI,2,10,3,5,New Zealand
+414,South Africa,New Zealand,Mumbai,South Africa,field,240,212,9,5,50,ODI,10,2,2,0,South Africa
+415,India,Afghanistan,Auckland,India,field,196,127,10,9,20,T20,8,5,0,1,India
+416,Australia,South Africa,Muscat,Australia,bat,335,310,7,9,50,ODI,8,10,3,2,Australia
+417,India,Australia,Mumbai,Australia,bat,166,162,3,9,20,T20,9,2,0,1,India
+418,Oman,England,Mumbai,Oman,field,294,256,10,8,50,ODI,5,8,3,2,Oman
+419,New Zealand,South Africa,Mumbai,New Zealand,bat,330,287,4,5,50,ODI,2,10,5,5,New Zealand
+420,Afghanistan,Oman,London,Afghanistan,bat,126,126,6,7,20,T20,6,4,4,2,Oman
+421,Oman,India,Cape Town,Oman,field,200,267,4,4,50,ODI,2,3,0,4,India
+422,Australia,India,Dubai,India,field,144,154,4,4,20,T20,7,5,0,2,India
+423,South Africa,New Zealand,Muscat,New Zealand,field,253,263,9,6,50,ODI,3,1,0,3,New Zealand
+424,New Zealand,England,Cape Town,New Zealand,field,253,322,4,9,50,ODI,5,9,3,5,England
+425,Oman,South Africa,Muscat,South Africa,field,275,223,7,6,50,ODI,10,8,3,0,Oman
+426,England,New Zealand,Delhi,New Zealand,bat,197,160,4,7,20,T20,6,10,4,5,England
+427,Oman,England,Delhi,Oman,bat,144,138,6,10,20,T20,5,2,4,0,Oman
+428,Oman,South Africa,Dubai,Oman,field,329,298,10,9,50,ODI,10,4,4,2,Oman
+429,England,Australia,Chennai,England,field,285,295,7,3,50,ODI,3,4,4,0,Australia
+430,New Zealand,England,Chennai,England,field,237,292,6,6,50,ODI,3,2,3,1,England
+431,Oman,India,Chennai,Oman,bat,280,228,10,7,50,ODI,5,7,3,0,Oman
+432,Afghanistan,South Africa,Auckland,South Africa,field,124,192,5,7,20,T20,3,2,3,3,South Africa
+433,Afghanistan,New Zealand,Cape Town,New Zealand,field,204,261,4,8,50,ODI,5,8,1,5,New Zealand
+434,New Zealand,India,Sydney,India,field,134,168,7,9,20,T20,9,9,1,4,India
+435,South Africa,Oman,Delhi,Oman,bat,163,154,10,6,20,T20,1,5,5,4,South Africa
+436,England,New Zealand,Dubai,England,field,209,304,7,10,50,ODI,10,9,1,2,New Zealand
+437,India,Oman,Cape Town,India,field,178,133,7,6,20,T20,7,1,5,3,India
+438,England,Australia,Mumbai,England,field,243,256,7,8,50,ODI,6,9,3,5,Australia
+439,India,New Zealand,Delhi,India,bat,318,286,10,9,50,ODI,3,7,0,5,India
+440,Australia,India,Auckland,Australia,bat,196,184,7,7,20,T20,7,9,1,0,Australia
+441,Afghanistan,England,Mumbai,Afghanistan,bat,173,165,3,5,20,T20,7,10,4,2,Afghanistan
+442,India,New Zealand,London,New Zealand,field,174,157,6,4,20,T20,8,5,3,2,India
+443,New Zealand,Afghanistan,Dubai,Afghanistan,bat,171,132,9,5,20,T20,6,2,2,0,New Zealand
+444,India,South Africa,Mumbai,South Africa,bat,128,168,3,7,20,T20,6,8,3,5,South Africa
+445,Australia,India,Delhi,India,field,319,225,9,9,50,ODI,9,10,4,5,Australia
+446,India,Oman,London,Oman,bat,338,331,3,10,50,ODI,4,2,3,0,India
+447,New Zealand,India,Delhi,India,field,298,277,9,5,50,ODI,8,5,4,2,New Zealand
+448,England,Oman,London,England,field,315,224,9,5,50,ODI,5,10,1,0,England
+449,Afghanistan,India,Muscat,India,field,328,312,3,7,50,ODI,7,2,5,0,Afghanistan
+450,South Africa,Australia,Delhi,South Africa,bat,304,304,10,3,50,ODI,6,4,5,2,Australia
+451,Oman,South Africa,Muscat,Oman,field,167,168,8,5,20,T20,1,4,3,1,South Africa
+452,England,India,Dubai,England,field,318,302,7,7,50,ODI,2,7,4,3,England
+453,South Africa,England,Sydney,South Africa,field,318,294,3,9,50,ODI,5,3,3,1,South Africa
+454,Oman,Afghanistan,London,Afghanistan,bat,184,188,6,9,20,T20,2,5,3,5,Afghanistan
+455,India,New Zealand,Dubai,India,bat,298,288,7,5,50,ODI,9,10,0,2,India
+456,Australia,New Zealand,Muscat,Australia,bat,125,134,6,3,20,T20,1,6,1,5,New Zealand
+457,India,South Africa,Muscat,India,bat,141,128,7,9,20,T20,8,3,1,5,India
+458,England,New Zealand,Dubai,England,bat,163,144,4,8,20,T20,9,2,5,0,England
+459,Afghanistan,India,Dubai,India,field,190,155,10,9,20,T20,2,6,0,1,Afghanistan
+460,Oman,New Zealand,Chennai,Oman,bat,125,139,9,3,20,T20,7,8,4,0,New Zealand
+461,Australia,New Zealand,Muscat,Australia,field,134,162,3,7,20,T20,3,3,5,4,New Zealand
+462,New Zealand,Australia,Chennai,Australia,bat,166,159,8,8,20,T20,4,4,3,3,New Zealand
+463,England,South Africa,Sydney,England,field,331,204,4,10,50,ODI,9,10,2,0,England
+464,India,South Africa,London,India,field,246,231,4,7,50,ODI,1,1,3,3,India
+465,India,New Zealand,Delhi,India,bat,163,126,8,9,20,T20,2,3,2,1,India
+466,England,New Zealand,Dubai,England,bat,138,171,4,7,20,T20,6,7,4,4,New Zealand
+467,New Zealand,Australia,Sydney,New Zealand,field,135,177,3,10,20,T20,3,8,1,0,Australia
+468,Australia,Afghanistan,Auckland,Afghanistan,bat,204,221,9,8,50,ODI,2,3,0,0,Afghanistan
+469,Oman,New Zealand,Dubai,Oman,bat,341,229,3,3,50,ODI,2,8,2,3,Oman
+470,South Africa,New Zealand,Delhi,New Zealand,bat,316,224,4,5,50,ODI,7,1,5,0,South Africa
+471,Australia,Oman,Mumbai,Australia,bat,278,210,9,10,50,ODI,2,1,2,5,Australia
+472,New Zealand,Australia,London,Australia,bat,128,174,3,3,20,T20,10,7,1,4,Australia
+473,New Zealand,Oman,Muscat,Oman,bat,187,163,7,6,20,T20,5,4,4,5,New Zealand
+474,India,England,Delhi,India,bat,159,136,4,4,20,T20,5,1,0,0,India
+475,New Zealand,Australia,Sydney,Australia,field,239,211,6,8,50,ODI,7,4,4,3,New Zealand
+476,Australia,South Africa,Sydney,South Africa,field,195,123,10,3,20,T20,1,6,0,2,Australia
+477,India,Afghanistan,Cape Town,Afghanistan,bat,237,296,10,5,50,ODI,9,4,4,1,Afghanistan
+478,Australia,Afghanistan,Auckland,Afghanistan,bat,334,349,8,10,50,ODI,4,4,2,3,Afghanistan
+479,England,India,Sydney,England,field,221,332,10,6,50,ODI,5,2,1,3,India
+480,England,Australia,Chennai,Australia,bat,128,173,3,3,20,T20,3,9,2,2,Australia
+481,India,Australia,Delhi,Australia,field,326,293,10,5,50,ODI,5,6,4,0,India
+482,India,Australia,Mumbai,Australia,field,135,148,5,9,20,T20,8,5,4,3,Australia
+483,Oman,England,Muscat,Oman,field,206,324,7,4,50,ODI,2,8,0,2,England
+484,India,Oman,Mumbai,India,bat,327,298,3,3,50,ODI,8,5,1,0,India
+485,England,Australia,Sydney,Australia,bat,316,285,9,4,50,ODI,2,9,4,3,England
+486,Australia,Oman,Dubai,Oman,field,337,235,5,6,50,ODI,2,6,1,5,Australia
+487,South Africa,England,Cape Town,England,bat,176,189,7,7,20,T20,10,1,5,4,England
+488,England,Oman,Mumbai,Oman,bat,153,165,9,3,20,T20,6,1,5,0,Oman
+489,Australia,Afghanistan,Dubai,Afghanistan,field,158,153,10,7,20,T20,2,1,3,5,Australia
+490,South Africa,India,Mumbai,India,field,189,133,3,3,20,T20,3,2,0,2,South Africa
+491,New Zealand,England,Auckland,England,field,168,166,9,6,20,T20,10,8,3,0,New Zealand
+492,Oman,Australia,Cape Town,Australia,bat,349,271,9,7,50,ODI,9,8,4,4,Oman
+493,Australia,Afghanistan,Sydney,Afghanistan,field,327,334,5,6,50,ODI,5,9,0,2,Afghanistan
+494,India,New Zealand,Muscat,New Zealand,field,178,182,3,6,20,T20,3,4,5,3,New Zealand
+495,Afghanistan,Oman,Muscat,Afghanistan,bat,345,298,4,3,50,ODI,6,2,5,3,Afghanistan
+496,England,South Africa,Dubai,South Africa,field,189,123,9,10,20,T20,1,7,3,4,England
+497,South Africa,Australia,Mumbai,South Africa,bat,243,228,7,8,50,ODI,8,3,2,5,South Africa
+498,New Zealand,India,Dubai,India,field,160,120,6,10,20,T20,4,9,1,1,New Zealand
+499,Afghanistan,Australia,Mumbai,Australia,field,123,131,7,4,20,T20,1,4,0,3,Australia
+500,Afghanistan,South Africa,Delhi,South Africa,field,148,167,4,8,20,T20,7,1,0,5,South Africa
+501,India,Oman,London,Oman,field,328,201,3,10,50,ODI,8,1,1,4,India
+502,England,South Africa,Muscat,England,field,268,238,3,8,50,ODI,5,9,1,5,England
+503,India,Australia,Cape Town,Australia,field,186,147,10,9,20,T20,2,5,4,4,India
+504,India,Oman,Muscat,Oman,field,233,328,9,9,50,ODI,4,8,5,3,Oman
+505,Afghanistan,New Zealand,Sydney,Afghanistan,bat,186,129,7,5,20,T20,7,9,1,1,Afghanistan
+506,Afghanistan,England,Cape Town,Afghanistan,bat,332,208,8,5,50,ODI,5,6,5,5,Afghanistan
+507,Oman,India,Chennai,India,bat,286,252,3,8,50,ODI,5,2,1,1,Oman
+508,Australia,India,London,Australia,bat,277,310,5,4,50,ODI,9,9,3,3,India
+509,Afghanistan,India,Dubai,Afghanistan,bat,284,291,10,7,50,ODI,2,9,1,3,India
+510,India,England,Muscat,India,bat,141,145,6,7,20,T20,10,8,5,1,England
+511,New Zealand,England,Muscat,New Zealand,bat,156,193,4,8,20,T20,9,1,3,1,England
+512,New Zealand,England,Muscat,England,field,304,246,3,10,50,ODI,9,4,5,2,New Zealand
+513,Afghanistan,New Zealand,Cape Town,New Zealand,bat,180,199,3,8,20,T20,9,9,2,4,New Zealand
+514,Australia,South Africa,Mumbai,Australia,field,141,198,5,4,20,T20,8,5,0,1,South Africa
+515,England,South Africa,Mumbai,England,bat,131,154,4,6,20,T20,5,9,5,4,South Africa
+516,South Africa,Afghanistan,Delhi,South Africa,bat,263,315,9,6,50,ODI,9,4,2,2,Afghanistan
+517,England,New Zealand,Muscat,England,field,196,161,3,5,20,T20,9,7,0,4,England
+518,South Africa,New Zealand,London,New Zealand,field,309,239,5,7,50,ODI,6,2,3,0,South Africa
+519,Afghanistan,India,Auckland,Afghanistan,field,301,264,6,8,50,ODI,1,8,3,2,Afghanistan
+520,Afghanistan,India,Sydney,Afghanistan,bat,262,348,6,10,50,ODI,10,9,4,0,India
+521,India,England,Sydney,England,bat,161,144,6,3,20,T20,2,9,1,3,India
+522,South Africa,New Zealand,Dubai,New Zealand,field,257,250,5,4,50,ODI,3,6,1,3,South Africa
+523,New Zealand,South Africa,Mumbai,South Africa,field,210,255,8,5,50,ODI,8,8,4,0,South Africa
+524,India,South Africa,Muscat,India,field,188,158,10,7,20,T20,2,4,1,3,India
+525,South Africa,Australia,Chennai,South Africa,bat,331,230,9,8,50,ODI,8,2,4,5,South Africa
+526,Australia,Oman,London,Oman,field,143,166,10,6,20,T20,3,10,1,0,Oman
+527,England,India,Muscat,England,bat,216,297,10,9,50,ODI,10,6,2,0,India
+528,Afghanistan,India,London,Afghanistan,bat,342,301,3,6,50,ODI,6,9,4,0,Afghanistan
+529,New Zealand,England,Sydney,New Zealand,field,235,309,10,4,50,ODI,5,1,0,2,England
+530,South Africa,New Zealand,Chennai,New Zealand,bat,150,179,10,10,20,T20,8,5,0,2,New Zealand
+531,Afghanistan,New Zealand,Mumbai,New Zealand,bat,120,179,9,5,20,T20,1,4,5,2,New Zealand
+532,Oman,England,Sydney,England,field,312,229,7,5,50,ODI,10,4,0,2,Oman
+533,Australia,Oman,Muscat,Oman,field,136,138,7,6,20,T20,5,9,1,2,Oman
+534,New Zealand,England,Auckland,England,bat,320,258,4,4,50,ODI,4,7,0,4,New Zealand
+535,South Africa,England,Muscat,South Africa,bat,264,303,9,9,50,ODI,6,8,3,5,England
+536,England,New Zealand,London,England,bat,200,141,8,10,20,T20,5,1,0,5,England
+537,South Africa,Afghanistan,Mumbai,South Africa,bat,219,291,6,10,50,ODI,7,1,0,0,Afghanistan
+538,New Zealand,Oman,London,Oman,field,284,289,9,4,50,ODI,10,10,0,0,Oman
+539,England,India,Auckland,England,bat,290,236,9,8,50,ODI,4,9,2,5,England
+540,Oman,Australia,Mumbai,Oman,field,177,181,8,3,20,T20,5,3,5,2,Australia
+541,India,Afghanistan,Sydney,Afghanistan,field,141,148,4,5,20,T20,10,1,2,2,Afghanistan
+542,New Zealand,England,Cape Town,England,field,181,142,6,3,20,T20,9,6,4,3,New Zealand
+543,Afghanistan,Oman,Cape Town,Afghanistan,bat,196,129,5,6,20,T20,4,10,5,3,Afghanistan
+544,England,India,Mumbai,India,bat,147,129,5,3,20,T20,7,8,0,3,England
+545,England,South Africa,Chennai,England,bat,146,161,6,8,20,T20,8,4,0,2,South Africa
+546,India,Oman,Mumbai,Oman,field,124,139,10,7,20,T20,2,7,4,2,Oman
+547,India,Afghanistan,Cape Town,Afghanistan,field,149,132,4,3,20,T20,3,5,2,2,India
+548,India,South Africa,Cape Town,South Africa,bat,303,256,5,8,50,ODI,5,5,4,5,India
+549,Australia,New Zealand,London,Australia,field,312,340,8,4,50,ODI,1,6,0,5,New Zealand
+550,New Zealand,South Africa,Dubai,New Zealand,field,150,181,4,5,20,T20,6,9,1,4,South Africa
+551,Australia,England,Muscat,Australia,field,188,198,3,3,20,T20,8,1,0,4,England
+552,India,Oman,London,Oman,field,335,211,6,10,50,ODI,7,3,0,2,India
+553,Oman,England,Dubai,England,bat,138,195,10,5,20,T20,10,6,2,1,England
+554,Australia,India,Delhi,Australia,bat,152,184,6,8,20,T20,8,8,3,4,India
+555,New Zealand,India,Delhi,India,field,180,129,4,8,20,T20,4,9,2,4,New Zealand
+556,New Zealand,Oman,London,Oman,bat,228,304,6,7,50,ODI,2,7,2,2,Oman
+557,South Africa,Afghanistan,London,South Africa,bat,329,297,3,8,50,ODI,10,6,0,1,South Africa
+558,Australia,India,Mumbai,Australia,field,154,134,5,8,20,T20,4,8,5,5,Australia
+559,Australia,South Africa,Muscat,Australia,bat,199,153,4,6,20,T20,9,9,2,1,Australia
+560,Oman,England,Sydney,Oman,bat,260,226,7,8,50,ODI,7,7,0,4,Oman
+561,England,South Africa,Muscat,South Africa,bat,194,134,6,4,20,T20,2,10,0,2,England
+562,South Africa,England,Sydney,South Africa,bat,230,244,6,10,50,ODI,8,4,1,1,England
+563,Australia,South Africa,Mumbai,Australia,bat,235,271,4,9,50,ODI,7,5,0,5,South Africa
+564,England,India,Delhi,India,field,132,157,3,5,20,T20,10,9,2,1,India
+565,England,India,Delhi,India,field,330,275,4,10,50,ODI,1,5,1,2,England
+566,England,New Zealand,Delhi,New Zealand,bat,302,279,3,5,50,ODI,8,3,5,4,England
+567,Afghanistan,Oman,Muscat,Oman,field,150,149,5,10,20,T20,4,6,2,2,Afghanistan
+568,Afghanistan,Oman,Muscat,Oman,field,285,309,9,8,50,ODI,2,6,2,2,Oman
+569,New Zealand,South Africa,Auckland,New Zealand,field,270,291,10,7,50,ODI,8,7,2,3,South Africa
+570,England,Afghanistan,Auckland,England,field,260,322,10,7,50,ODI,7,7,3,2,Afghanistan
+571,Afghanistan,Oman,London,Oman,bat,347,342,5,9,50,ODI,10,2,0,1,Afghanistan
+572,Oman,Afghanistan,Sydney,Oman,field,186,184,10,4,20,T20,8,7,4,3,Oman
+573,India,Oman,Delhi,Oman,bat,173,134,3,3,20,T20,5,4,4,2,India
+574,Afghanistan,Oman,Dubai,Afghanistan,field,280,290,7,3,50,ODI,5,10,4,0,Oman
+575,Oman,India,Sydney,India,bat,132,173,4,6,20,T20,2,6,4,4,India
+576,India,Oman,Muscat,Oman,field,208,303,3,8,50,ODI,10,6,3,1,Oman
+577,Australia,Oman,Dubai,Australia,field,255,258,8,4,50,ODI,7,9,4,0,Oman
+578,England,South Africa,Delhi,South Africa,bat,138,196,8,9,20,T20,6,6,4,3,South Africa
+579,New Zealand,Australia,Delhi,New Zealand,bat,229,310,9,7,50,ODI,6,8,2,2,Australia
+580,Afghanistan,England,Mumbai,England,field,176,197,5,8,20,T20,1,6,3,1,England
+581,South Africa,Afghanistan,Cape Town,Afghanistan,field,126,137,8,6,20,T20,2,1,4,0,Afghanistan
+582,Oman,Australia,London,Oman,bat,347,210,6,4,50,ODI,6,5,3,2,Oman
+583,England,New Zealand,Mumbai,England,bat,127,154,10,4,20,T20,6,10,4,4,New Zealand
+584,Oman,New Zealand,Mumbai,New Zealand,bat,172,193,6,3,20,T20,8,2,2,2,New Zealand
+585,Afghanistan,South Africa,Cape Town,South Africa,bat,183,192,5,9,20,T20,10,10,3,2,South Africa
+586,Oman,New Zealand,London,New Zealand,bat,283,324,9,9,50,ODI,3,4,2,3,New Zealand
+587,Australia,India,Chennai,Australia,bat,186,192,9,9,20,T20,1,8,4,4,India
+588,England,New Zealand,Sydney,New Zealand,field,328,281,8,4,50,ODI,5,10,4,4,England
+589,Afghanistan,South Africa,London,Afghanistan,field,142,183,9,10,20,T20,8,6,1,1,South Africa
+590,England,India,Mumbai,India,field,191,173,10,9,20,T20,5,7,4,1,England
+591,South Africa,Oman,Mumbai,South Africa,bat,278,261,10,5,50,ODI,9,5,0,2,South Africa
+592,India,Australia,Sydney,Australia,bat,179,167,8,7,20,T20,5,10,4,0,India
+593,India,Afghanistan,Sydney,Afghanistan,field,237,228,6,10,50,ODI,3,5,0,0,India
+594,India,England,Delhi,India,field,224,289,5,7,50,ODI,7,6,4,5,England
+595,New Zealand,India,London,New Zealand,bat,286,284,10,4,50,ODI,2,2,4,0,New Zealand
+596,England,Oman,Sydney,England,bat,312,220,7,6,50,ODI,10,3,2,2,England
+597,England,Afghanistan,Auckland,Afghanistan,field,193,164,4,8,20,T20,3,4,1,1,England
+598,New Zealand,Afghanistan,Muscat,Afghanistan,field,303,261,10,7,50,ODI,4,4,2,1,New Zealand
+599,New Zealand,Australia,Dubai,Australia,field,262,300,7,3,50,ODI,1,10,0,5,Australia
+600,Afghanistan,Oman,Auckland,Afghanistan,field,168,147,8,6,20,T20,3,2,1,0,Afghanistan
+601,India,Oman,London,India,field,155,151,7,5,20,T20,5,10,1,0,India
+602,Oman,Australia,Cape Town,Oman,field,221,343,6,7,50,ODI,9,2,0,0,Australia
+603,Oman,South Africa,Muscat,Oman,field,153,167,5,7,20,T20,4,4,3,4,South Africa
+604,Afghanistan,New Zealand,London,Afghanistan,field,330,293,6,3,50,ODI,10,2,3,4,Afghanistan
+605,Oman,Australia,Mumbai,Oman,field,146,134,8,3,20,T20,9,1,1,5,Oman
+606,India,Australia,Chennai,India,field,133,132,3,6,20,T20,3,6,3,0,India
+607,New Zealand,South Africa,Delhi,South Africa,bat,223,203,9,8,50,ODI,5,1,1,3,New Zealand
+608,Australia,India,Chennai,Australia,field,250,224,9,4,50,ODI,8,8,4,3,Australia
+609,Oman,India,Mumbai,Oman,field,287,308,9,3,50,ODI,5,1,4,3,India
+610,India,Afghanistan,Auckland,Afghanistan,bat,183,133,5,3,20,T20,10,7,3,3,India
+611,England,Australia,Dubai,Australia,bat,337,323,6,8,50,ODI,5,8,3,0,England
+612,Oman,Australia,Sydney,Oman,bat,182,126,7,10,20,T20,2,1,2,1,Oman
+613,Oman,New Zealand,London,New Zealand,bat,206,309,5,8,50,ODI,6,3,3,5,New Zealand
+614,Australia,Oman,Auckland,Australia,bat,150,185,4,10,20,T20,3,2,4,4,Oman
+615,Australia,India,Delhi,India,bat,137,171,10,9,20,T20,9,9,3,4,India
+616,New Zealand,Afghanistan,Mumbai,New Zealand,field,169,142,5,7,20,T20,4,1,4,0,New Zealand
+617,England,India,Chennai,India,field,350,227,9,7,50,ODI,7,7,3,5,England
+618,Australia,Afghanistan,Sydney,Afghanistan,field,169,194,6,10,20,T20,3,1,3,4,Afghanistan
+619,Australia,South Africa,Cape Town,South Africa,bat,127,122,10,5,20,T20,7,2,4,2,Australia
+620,Afghanistan,India,Chennai,India,field,197,164,8,9,20,T20,8,10,0,0,Afghanistan
+621,India,New Zealand,Delhi,New Zealand,bat,162,127,7,8,20,T20,1,3,2,0,India
+622,New Zealand,India,Auckland,New Zealand,bat,159,141,7,3,20,T20,5,3,0,5,New Zealand
+623,Oman,England,Dubai,England,bat,178,178,9,6,20,T20,7,10,2,0,England
+624,Oman,England,Chennai,Oman,field,130,126,10,7,20,T20,9,2,4,3,Oman
+625,England,New Zealand,Chennai,England,field,167,197,8,4,20,T20,9,9,2,4,New Zealand
+626,Oman,South Africa,Cape Town,South Africa,bat,125,128,10,9,20,T20,2,5,0,3,South Africa
+627,New Zealand,England,London,New Zealand,bat,156,180,3,3,20,T20,2,10,4,2,England
+628,India,Afghanistan,Muscat,Afghanistan,field,165,166,5,5,20,T20,5,2,2,1,Afghanistan
+629,New Zealand,Australia,Dubai,New Zealand,field,200,195,8,7,20,T20,3,8,4,5,New Zealand
+630,Afghanistan,England,Muscat,England,bat,226,256,4,6,50,ODI,4,2,4,2,England
+631,Australia,England,Auckland,Australia,field,279,256,4,4,50,ODI,9,1,2,0,Australia
+632,Oman,England,Delhi,England,bat,266,245,10,6,50,ODI,1,3,3,4,Oman
+633,England,Oman,Sydney,England,field,134,195,3,8,20,T20,4,6,3,2,Oman
+634,Afghanistan,India,Cape Town,Afghanistan,bat,194,170,6,8,20,T20,6,10,4,4,Afghanistan
+635,South Africa,Afghanistan,Sydney,South Africa,field,144,155,5,9,20,T20,6,1,4,1,Afghanistan
+636,Oman,India,Chennai,India,bat,327,290,5,10,50,ODI,4,9,4,3,Oman
+637,Afghanistan,Australia,Cape Town,Afghanistan,bat,180,144,5,5,20,T20,4,2,4,2,Afghanistan
+638,India,New Zealand,Delhi,India,bat,255,345,5,7,50,ODI,7,5,3,1,New Zealand
+639,England,Oman,Auckland,Oman,field,184,129,6,5,20,T20,6,9,2,3,England
+640,New Zealand,England,Dubai,England,field,178,194,3,3,20,T20,2,7,0,5,England
+641,Afghanistan,New Zealand,Cape Town,Afghanistan,bat,337,203,9,6,50,ODI,7,7,4,1,Afghanistan
+642,England,Australia,Delhi,England,bat,190,190,10,10,20,T20,10,8,3,1,Australia
+643,Australia,England,Sydney,Australia,field,349,234,4,8,50,ODI,10,7,5,1,Australia
+644,Australia,New Zealand,Cape Town,Australia,field,136,183,6,4,20,T20,7,7,5,1,New Zealand
+645,Oman,South Africa,London,Oman,bat,149,195,9,8,20,T20,4,4,5,1,South Africa
+646,New Zealand,South Africa,Muscat,New Zealand,field,189,142,6,3,20,T20,8,6,1,1,New Zealand
+647,South Africa,Afghanistan,Cape Town,South Africa,field,177,161,9,6,20,T20,3,2,5,0,South Africa
+648,India,New Zealand,Sydney,India,field,122,196,3,3,20,T20,8,10,4,0,New Zealand
+649,South Africa,India,London,South Africa,field,147,199,6,4,20,T20,1,3,1,4,India
+650,Australia,England,Auckland,Australia,bat,292,200,6,6,50,ODI,3,7,3,0,Australia
+651,Afghanistan,Oman,Dubai,Oman,bat,186,187,5,8,20,T20,9,1,1,5,Oman
+652,South Africa,Australia,Muscat,South Africa,field,140,144,4,7,20,T20,4,7,3,1,Australia
+653,Afghanistan,England,Sydney,England,bat,326,214,10,4,50,ODI,5,8,3,3,Afghanistan
+654,Oman,England,Mumbai,Oman,field,121,182,3,6,20,T20,9,4,4,2,England
+655,South Africa,Afghanistan,Cape Town,Afghanistan,bat,255,332,5,9,50,ODI,1,9,4,0,Afghanistan
+656,Australia,South Africa,Delhi,South Africa,bat,337,341,3,3,50,ODI,7,2,2,0,South Africa
+657,Australia,England,Chennai,Australia,bat,330,310,8,4,50,ODI,1,6,5,5,Australia
+658,India,New Zealand,Delhi,New Zealand,field,280,207,9,6,50,ODI,9,2,0,0,India
+659,Oman,Australia,Dubai,Oman,bat,239,304,4,5,50,ODI,7,5,1,4,Australia
+660,India,South Africa,Mumbai,South Africa,field,326,228,8,9,50,ODI,7,10,2,2,India
+661,Oman,Australia,Mumbai,Australia,field,333,271,9,5,50,ODI,7,10,5,4,Oman
+662,Australia,England,Mumbai,Australia,field,144,122,10,9,20,T20,8,4,3,1,Australia
+663,Australia,New Zealand,London,New Zealand,field,286,261,3,4,50,ODI,4,2,3,5,Australia
+664,England,India,Muscat,England,bat,249,200,7,7,50,ODI,6,4,3,1,England
+665,South Africa,New Zealand,Chennai,New Zealand,field,141,182,9,8,20,T20,5,6,1,0,New Zealand
+666,England,New Zealand,Dubai,England,field,342,284,4,8,50,ODI,1,1,2,3,England
+667,Afghanistan,Oman,Chennai,Oman,bat,160,192,3,9,20,T20,5,5,2,2,Oman
+668,South Africa,Afghanistan,Mumbai,Afghanistan,bat,248,233,4,5,50,ODI,6,9,1,0,South Africa
+669,Oman,Afghanistan,Muscat,Afghanistan,bat,190,180,6,6,20,T20,8,4,2,2,Oman
+670,Oman,New Zealand,Mumbai,Oman,bat,270,211,3,6,50,ODI,4,6,0,1,Oman
+671,South Africa,New Zealand,Chennai,New Zealand,field,137,197,7,5,20,T20,6,8,2,1,New Zealand
+672,India,Australia,London,Australia,field,300,239,7,4,50,ODI,4,5,1,2,India
+673,England,India,Mumbai,England,bat,211,257,8,4,50,ODI,4,4,4,2,India
+674,India,Australia,Muscat,India,field,143,172,6,4,20,T20,1,6,3,4,Australia
+675,New Zealand,England,Muscat,New Zealand,bat,176,184,7,4,20,T20,2,3,4,5,England
+676,South Africa,Australia,Muscat,Australia,field,338,326,7,7,50,ODI,5,4,1,1,South Africa
+677,India,Afghanistan,London,India,field,263,241,10,9,50,ODI,5,4,2,0,India
+678,Afghanistan,Oman,Sydney,Oman,field,245,347,10,7,50,ODI,6,10,3,3,Oman
+679,Oman,New Zealand,Auckland,New Zealand,bat,340,312,7,4,50,ODI,10,6,2,3,Oman
+680,South Africa,Australia,Mumbai,Australia,bat,152,200,7,8,20,T20,4,9,3,1,Australia
+681,New Zealand,South Africa,Muscat,South Africa,field,197,161,7,8,20,T20,2,7,0,1,New Zealand
+682,Afghanistan,South Africa,Chennai,Afghanistan,bat,125,132,7,10,20,T20,1,2,3,2,South Africa
+683,Afghanistan,England,Mumbai,England,bat,136,164,3,7,20,T20,9,4,2,0,England
+684,England,Afghanistan,Delhi,England,bat,250,212,10,4,50,ODI,8,9,2,2,England
+685,England,South Africa,Mumbai,South Africa,bat,197,129,9,5,20,T20,7,3,3,5,England
+686,Australia,England,Dubai,England,bat,339,334,8,4,50,ODI,9,9,2,0,Australia
+687,Oman,South Africa,Mumbai,Oman,field,285,241,9,3,50,ODI,7,3,2,5,Oman
+688,South Africa,Afghanistan,Muscat,South Africa,bat,150,179,7,3,20,T20,10,10,2,2,Afghanistan
+689,South Africa,Australia,Muscat,South Africa,bat,302,253,4,9,50,ODI,8,4,3,5,South Africa
+690,India,England,Chennai,England,bat,187,169,9,4,20,T20,7,7,4,1,India
+691,Afghanistan,New Zealand,Cape Town,Afghanistan,field,193,169,6,6,20,T20,5,1,0,0,Afghanistan
+692,England,South Africa,Cape Town,South Africa,field,240,223,5,4,50,ODI,8,3,0,1,England
+693,New Zealand,Australia,Sydney,New Zealand,field,155,155,3,10,20,T20,2,1,3,3,Australia
+694,England,Afghanistan,Dubai,England,field,255,345,7,9,50,ODI,3,3,1,3,Afghanistan
+695,South Africa,Australia,Auckland,South Africa,field,261,262,9,4,50,ODI,1,10,0,3,Australia
+696,New Zealand,South Africa,Mumbai,South Africa,field,159,182,7,5,20,T20,10,6,1,0,South Africa
+697,England,India,Auckland,India,bat,140,131,5,9,20,T20,10,9,4,5,England
+698,India,Oman,Chennai,India,field,187,123,7,5,20,T20,2,5,2,1,India
+699,Oman,England,Delhi,England,field,345,218,8,3,50,ODI,8,6,5,1,Oman
+700,Australia,South Africa,Cape Town,South Africa,bat,185,185,10,10,20,T20,5,4,2,4,South Africa
+701,South Africa,England,Muscat,England,field,185,145,10,10,20,T20,10,8,3,1,South Africa
+702,England,India,Muscat,India,field,212,335,5,8,50,ODI,1,2,3,0,India
+703,South Africa,Afghanistan,Sydney,Afghanistan,field,127,153,6,9,20,T20,3,2,4,4,Afghanistan
+704,New Zealand,Australia,Delhi,New Zealand,bat,152,162,8,9,20,T20,6,10,5,0,Australia
+705,South Africa,Oman,Delhi,South Africa,field,175,131,9,5,20,T20,7,10,0,5,South Africa
+706,India,England,London,England,bat,148,131,7,10,20,T20,7,2,4,1,India
+707,Oman,England,Mumbai,England,bat,180,128,6,10,20,T20,1,6,4,1,Oman
+708,South Africa,New Zealand,Mumbai,New Zealand,field,274,285,10,4,50,ODI,9,5,2,2,New Zealand
+709,South Africa,New Zealand,Mumbai,South Africa,field,172,135,7,10,20,T20,2,5,1,1,South Africa
+710,Australia,India,Muscat,Australia,field,195,180,8,3,20,T20,1,2,4,1,Australia
+711,Afghanistan,New Zealand,Muscat,New Zealand,bat,122,176,9,5,20,T20,2,9,2,0,New Zealand
+712,India,Australia,London,India,field,170,182,5,8,20,T20,7,10,4,3,Australia
+713,Oman,India,Muscat,Oman,bat,162,197,10,10,20,T20,5,9,0,5,India
+714,Oman,Afghanistan,Cape Town,Oman,bat,128,171,6,4,20,T20,5,10,1,2,Afghanistan
+715,England,India,Auckland,England,field,170,175,6,3,20,T20,1,6,2,5,India
+716,India,Oman,Mumbai,Oman,bat,225,224,6,8,50,ODI,3,1,1,0,India
+717,Australia,South Africa,Sydney,Australia,field,245,256,10,7,50,ODI,2,8,4,5,South Africa
+718,England,India,Dubai,India,field,225,306,4,7,50,ODI,4,2,0,0,India
+719,South Africa,Australia,Cape Town,South Africa,field,345,296,9,5,50,ODI,3,10,2,4,South Africa
+720,New Zealand,Afghanistan,Dubai,Afghanistan,bat,151,173,6,5,20,T20,4,6,1,4,Afghanistan
+721,India,Afghanistan,Delhi,Afghanistan,bat,128,198,5,4,20,T20,8,7,2,5,Afghanistan
+722,India,Oman,Dubai,Oman,bat,173,193,10,4,20,T20,10,1,0,2,Oman
+723,Oman,Afghanistan,Dubai,Afghanistan,field,194,147,3,6,20,T20,6,9,5,0,Oman
+724,England,Australia,London,Australia,bat,235,243,4,5,50,ODI,8,9,0,1,Australia
+725,Oman,England,Chennai,Oman,field,191,149,6,10,20,T20,5,10,0,4,Oman
+726,New Zealand,Afghanistan,Dubai,New Zealand,bat,122,175,6,4,20,T20,2,4,2,5,Afghanistan
+727,Afghanistan,South Africa,Sydney,South Africa,bat,199,177,3,8,20,T20,5,10,4,5,Afghanistan
+728,Afghanistan,Oman,London,Afghanistan,field,174,200,4,8,20,T20,10,4,5,2,Oman
+729,England,Afghanistan,Sydney,Afghanistan,bat,266,306,6,6,50,ODI,8,5,2,1,Afghanistan
+730,Afghanistan,South Africa,Mumbai,Afghanistan,bat,168,181,10,7,20,T20,1,5,5,3,South Africa
+731,Oman,South Africa,Auckland,South Africa,field,178,145,6,4,20,T20,4,8,0,3,Oman
+732,England,New Zealand,Delhi,New Zealand,field,180,146,9,7,20,T20,7,1,0,1,England
+733,Afghanistan,England,Cape Town,Afghanistan,bat,256,252,10,6,50,ODI,1,10,5,4,Afghanistan
+734,New Zealand,England,Muscat,England,field,131,189,5,7,20,T20,7,7,1,4,England
+735,New Zealand,Australia,Chennai,New Zealand,bat,148,175,4,10,20,T20,4,2,1,5,Australia
+736,England,South Africa,Mumbai,South Africa,field,345,266,7,5,50,ODI,3,3,3,4,England
+737,India,South Africa,Auckland,South Africa,bat,344,249,7,4,50,ODI,8,5,3,3,India
+738,Australia,Afghanistan,Chennai,Australia,field,136,168,9,5,20,T20,5,6,4,1,Afghanistan
+739,Afghanistan,Oman,Cape Town,Afghanistan,field,155,144,5,9,20,T20,9,3,0,0,Afghanistan
+740,England,Oman,London,England,bat,163,183,5,4,20,T20,5,10,3,5,Oman
+741,Afghanistan,New Zealand,Dubai,New Zealand,field,309,212,6,7,50,ODI,8,5,3,1,Afghanistan
+742,India,Australia,Muscat,Australia,field,120,122,6,4,20,T20,3,3,4,4,Australia
+743,England,Australia,Auckland,England,field,210,253,6,4,50,ODI,5,4,3,5,Australia
+744,Afghanistan,Australia,Cape Town,Australia,bat,234,290,8,9,50,ODI,3,8,4,0,Australia
+745,New Zealand,Oman,Delhi,Oman,field,245,267,4,6,50,ODI,4,5,1,2,Oman
+746,Oman,Australia,Auckland,Oman,field,123,197,7,10,20,T20,4,1,5,1,Australia
+747,South Africa,India,Mumbai,South Africa,field,153,189,8,4,20,T20,10,1,5,5,India
+748,New Zealand,South Africa,Delhi,New Zealand,field,339,274,10,6,50,ODI,3,5,4,0,New Zealand
+749,New Zealand,Afghanistan,Delhi,New Zealand,bat,183,173,9,3,20,T20,10,7,4,4,New Zealand
+750,Afghanistan,Oman,Delhi,Oman,field,199,125,9,3,20,T20,4,7,3,1,Afghanistan
+751,Oman,South Africa,Sydney,South Africa,bat,205,224,10,3,50,ODI,7,10,1,1,South Africa
+752,England,India,Delhi,India,bat,132,191,6,10,20,T20,3,6,2,0,India
+753,Australia,New Zealand,London,New Zealand,field,248,329,4,8,50,ODI,4,1,3,3,New Zealand
+754,New Zealand,India,Sydney,New Zealand,field,165,144,5,7,20,T20,7,5,4,2,New Zealand
+755,New Zealand,England,Sydney,New Zealand,bat,346,296,9,3,50,ODI,7,9,2,5,New Zealand
+756,Oman,Australia,Mumbai,Australia,field,283,252,8,3,50,ODI,4,1,3,3,Oman
+757,Afghanistan,Australia,Mumbai,Afghanistan,field,172,181,8,6,20,T20,3,9,1,1,Australia
+758,Oman,New Zealand,Mumbai,New Zealand,field,338,265,7,4,50,ODI,2,6,2,2,Oman
+759,England,New Zealand,Mumbai,New Zealand,bat,130,151,7,5,20,T20,6,3,3,1,New Zealand
+760,India,South Africa,Cape Town,South Africa,bat,314,227,9,10,50,ODI,3,4,4,2,India
+761,Australia,New Zealand,Chennai,Australia,field,186,147,8,10,20,T20,2,5,0,2,Australia
+762,India,Afghanistan,Delhi,India,bat,163,162,5,6,20,T20,5,7,2,4,India
+763,South Africa,Oman,Mumbai,South Africa,field,246,341,4,10,50,ODI,8,5,3,3,Oman
+764,England,South Africa,Delhi,England,bat,152,194,7,7,20,T20,6,9,5,4,South Africa
+765,Afghanistan,India,Muscat,India,bat,133,195,5,7,20,T20,4,9,5,3,India
+766,Oman,Afghanistan,Chennai,Oman,field,256,347,5,3,50,ODI,10,8,4,4,Afghanistan
+767,Afghanistan,South Africa,Sydney,South Africa,field,132,126,4,4,20,T20,8,5,1,1,Afghanistan
+768,Afghanistan,Australia,London,Afghanistan,field,238,212,9,6,50,ODI,1,7,4,0,Afghanistan
+769,Oman,India,Delhi,Oman,bat,149,150,5,4,20,T20,2,3,4,2,India
+770,New Zealand,Afghanistan,Cape Town,Afghanistan,bat,144,170,4,9,20,T20,5,6,5,1,Afghanistan
+771,Oman,Australia,Auckland,Oman,bat,199,135,3,4,20,T20,2,7,0,3,Oman
+772,India,Oman,Dubai,Oman,bat,200,121,6,9,20,T20,3,9,5,2,India
+773,Oman,India,London,India,field,329,257,4,6,50,ODI,4,3,4,5,Oman
+774,Australia,New Zealand,Dubai,Australia,field,170,162,6,3,20,T20,2,7,1,5,Australia
+775,Afghanistan,South Africa,Auckland,South Africa,bat,140,196,9,6,20,T20,1,1,0,3,South Africa
+776,Australia,India,Sydney,India,field,168,125,7,5,20,T20,6,6,2,3,Australia
+777,Afghanistan,New Zealand,Delhi,Afghanistan,bat,279,212,8,4,50,ODI,5,5,2,3,Afghanistan
+778,England,Oman,Sydney,Oman,field,135,145,7,7,20,T20,10,8,0,3,Oman
+779,New Zealand,England,Auckland,New Zealand,bat,258,281,6,6,50,ODI,5,3,3,0,England
+780,Oman,Afghanistan,Auckland,Oman,field,246,298,9,7,50,ODI,3,1,0,4,Afghanistan
+781,Afghanistan,Oman,Auckland,Afghanistan,field,151,143,10,10,20,T20,5,7,5,2,Afghanistan
+782,England,Australia,London,England,field,277,322,10,10,50,ODI,10,1,5,4,Australia
+783,Afghanistan,Australia,Chennai,Afghanistan,field,204,229,9,9,50,ODI,4,10,5,2,Australia
+784,New Zealand,Australia,Muscat,Australia,field,146,156,3,7,20,T20,9,1,4,2,Australia
+785,Oman,England,Chennai,England,field,227,266,9,7,50,ODI,9,10,4,2,England
+786,South Africa,Oman,Delhi,South Africa,bat,260,325,8,9,50,ODI,2,1,0,3,Oman
+787,Oman,New Zealand,London,Oman,bat,289,271,6,3,50,ODI,3,5,5,4,Oman
+788,Oman,India,Cape Town,Oman,bat,341,294,6,6,50,ODI,7,10,1,5,Oman
+789,South Africa,Afghanistan,Sydney,South Africa,bat,316,221,4,10,50,ODI,3,2,5,3,South Africa
+790,India,Afghanistan,Mumbai,India,field,144,185,7,5,20,T20,5,7,1,0,Afghanistan
+791,England,Australia,Cape Town,Australia,field,124,171,10,8,20,T20,10,9,2,0,Australia
+792,South Africa,Afghanistan,Chennai,South Africa,bat,299,252,4,7,50,ODI,3,4,5,4,South Africa
+793,New Zealand,Australia,Chennai,New Zealand,field,144,198,7,6,20,T20,3,8,1,1,Australia
+794,Oman,New Zealand,London,New Zealand,field,153,143,10,3,20,T20,3,6,5,3,Oman
+795,India,New Zealand,Dubai,India,bat,220,270,3,3,50,ODI,7,10,1,3,New Zealand
+796,Oman,England,Auckland,England,bat,150,182,10,5,20,T20,8,4,5,5,England
+797,Australia,India,Auckland,India,field,174,192,8,7,20,T20,10,8,4,3,India
+798,Afghanistan,Oman,Auckland,Oman,field,131,178,9,7,20,T20,3,5,4,5,Oman
+799,Oman,South Africa,Dubai,Oman,field,184,123,3,4,20,T20,1,4,0,0,Oman
+800,South Africa,Afghanistan,Auckland,South Africa,field,327,344,7,6,50,ODI,3,4,2,4,Afghanistan
+801,Afghanistan,New Zealand,Auckland,New Zealand,bat,201,234,6,9,50,ODI,4,5,4,2,New Zealand
+802,Oman,Afghanistan,Chennai,Afghanistan,bat,146,144,3,7,20,T20,4,10,1,4,Oman
+803,South Africa,Australia,Auckland,Australia,field,212,304,10,10,50,ODI,3,1,1,4,Australia
+804,Oman,India,Cape Town,India,field,340,256,8,5,50,ODI,2,5,1,4,Oman
+805,England,New Zealand,Delhi,England,bat,166,180,6,10,20,T20,5,6,3,2,New Zealand
+806,Oman,Afghanistan,Cape Town,Oman,field,142,170,6,8,20,T20,5,7,1,4,Afghanistan
+807,Oman,Afghanistan,Auckland,Afghanistan,field,204,256,5,10,50,ODI,2,8,3,2,Afghanistan
+808,Afghanistan,South Africa,Auckland,Afghanistan,bat,221,345,5,8,50,ODI,7,4,3,2,South Africa
+809,South Africa,England,Dubai,South Africa,field,265,315,4,9,50,ODI,8,5,1,5,England
+810,India,South Africa,London,India,field,149,141,4,3,20,T20,7,3,3,3,India
+811,Oman,England,Cape Town,Oman,bat,350,200,7,7,50,ODI,3,7,5,5,Oman
+812,India,New Zealand,Cape Town,India,bat,188,177,6,3,20,T20,3,1,3,2,India
+813,India,Australia,Mumbai,Australia,bat,134,146,10,6,20,T20,3,3,1,5,Australia
+814,Australia,New Zealand,Chennai,New Zealand,field,199,125,8,5,20,T20,2,2,2,1,Australia
+815,England,South Africa,Mumbai,England,bat,200,139,4,4,20,T20,9,3,0,4,England
+816,Australia,South Africa,Auckland,Australia,field,348,289,5,10,50,ODI,5,8,2,0,Australia
+817,Oman,New Zealand,Auckland,New Zealand,field,155,177,10,9,20,T20,7,4,2,3,New Zealand
+818,Afghanistan,India,Delhi,Afghanistan,field,279,231,10,3,50,ODI,8,3,1,2,Afghanistan
+819,New Zealand,Oman,Delhi,Oman,bat,328,295,6,4,50,ODI,6,9,5,0,New Zealand
+820,Australia,England,Cape Town,Australia,field,190,167,5,3,20,T20,1,5,4,1,Australia
+821,Afghanistan,Australia,London,Afghanistan,bat,304,219,10,10,50,ODI,5,4,2,0,Afghanistan
+822,Australia,India,Auckland,Australia,field,196,163,7,9,20,T20,8,8,5,4,Australia
+823,South Africa,India,Auckland,South Africa,bat,193,165,8,9,20,T20,4,6,2,2,South Africa
+824,England,Oman,Cape Town,Oman,field,151,148,6,5,20,T20,10,5,1,4,England
+825,Oman,England,Muscat,England,bat,166,186,7,7,20,T20,2,7,0,2,England
+826,South Africa,New Zealand,Sydney,New Zealand,bat,188,196,4,7,20,T20,3,9,5,5,New Zealand
+827,South Africa,New Zealand,Delhi,South Africa,bat,254,242,6,4,50,ODI,5,1,2,1,South Africa
+828,England,Afghanistan,Muscat,England,field,297,255,6,7,50,ODI,9,2,5,1,England
+829,New Zealand,England,Mumbai,New Zealand,bat,169,160,6,7,20,T20,3,8,4,2,New Zealand
+830,India,Australia,Muscat,India,field,160,142,5,6,20,T20,7,6,3,5,India
+831,Oman,Australia,Sydney,Oman,field,125,128,10,9,20,T20,5,1,1,5,Australia
+832,South Africa,New Zealand,Chennai,South Africa,bat,292,308,7,4,50,ODI,4,9,1,5,New Zealand
+833,New Zealand,Oman,Mumbai,Oman,bat,169,121,9,5,20,T20,9,8,0,0,New Zealand
+834,New Zealand,Australia,Chennai,New Zealand,bat,149,166,3,7,20,T20,2,7,1,3,Australia
+835,India,Oman,Auckland,Oman,field,232,343,7,8,50,ODI,2,6,2,3,Oman
+836,Afghanistan,England,Dubai,Afghanistan,field,190,199,3,6,20,T20,3,9,0,4,England
+837,New Zealand,Afghanistan,Cape Town,Afghanistan,field,293,332,7,4,50,ODI,6,7,3,3,Afghanistan
+838,South Africa,Afghanistan,London,Afghanistan,field,283,292,9,3,50,ODI,4,8,3,4,Afghanistan
+839,New Zealand,India,Chennai,New Zealand,field,140,192,10,8,20,T20,1,1,3,4,India
+840,South Africa,Oman,London,South Africa,field,319,325,7,9,50,ODI,2,9,4,3,Oman
+841,Australia,New Zealand,Chennai,Australia,bat,186,167,7,4,20,T20,1,1,4,3,Australia
+842,Oman,Australia,Cape Town,Oman,bat,190,153,9,8,20,T20,4,5,5,1,Oman
+843,India,New Zealand,Mumbai,New Zealand,bat,149,136,7,4,20,T20,5,8,4,1,India
+844,New Zealand,Oman,London,Oman,bat,321,336,10,10,50,ODI,9,4,5,5,Oman
+845,Oman,South Africa,Delhi,Oman,bat,239,332,7,3,50,ODI,3,2,2,3,South Africa
+846,Oman,Afghanistan,Mumbai,Afghanistan,bat,227,277,8,5,50,ODI,4,10,0,2,Afghanistan
+847,Afghanistan,New Zealand,Sydney,Afghanistan,field,175,198,6,9,20,T20,9,2,5,1,New Zealand
+848,Australia,Oman,Delhi,Australia,bat,301,331,7,10,50,ODI,4,10,5,5,Oman
+849,Oman,Afghanistan,Chennai,Afghanistan,field,168,125,8,10,20,T20,1,2,1,1,Oman
+850,England,South Africa,Auckland,South Africa,field,333,229,5,9,50,ODI,1,4,3,3,England
+851,South Africa,Australia,Delhi,Australia,bat,149,131,6,3,20,T20,8,10,1,5,South Africa
+852,England,Australia,Cape Town,England,bat,124,159,9,7,20,T20,3,1,5,5,Australia
+853,Afghanistan,Oman,London,Oman,bat,212,337,8,4,50,ODI,7,6,1,4,Oman
+854,South Africa,India,Auckland,India,bat,165,181,9,5,20,T20,6,7,3,0,India
+855,New Zealand,India,London,New Zealand,field,207,288,7,8,50,ODI,6,8,1,2,India
+856,India,Afghanistan,Sydney,Afghanistan,bat,190,160,8,10,20,T20,5,1,2,4,India
+857,England,Afghanistan,Chennai,Afghanistan,bat,145,199,8,7,20,T20,3,6,3,1,Afghanistan
+858,India,England,Dubai,India,bat,130,165,4,9,20,T20,3,1,1,2,England
+859,New Zealand,Oman,Mumbai,Oman,field,268,321,7,10,50,ODI,9,7,0,5,Oman
+860,Afghanistan,South Africa,Chennai,Afghanistan,field,344,349,9,6,50,ODI,3,5,5,3,South Africa
+861,Australia,Afghanistan,Auckland,Australia,field,144,127,5,8,20,T20,5,7,3,4,Australia
+862,India,South Africa,Auckland,India,field,157,133,7,7,20,T20,7,5,2,1,India
+863,England,Australia,Auckland,Australia,bat,325,233,3,7,50,ODI,7,7,5,1,England
+864,England,Oman,Mumbai,England,bat,120,180,10,4,20,T20,9,5,2,1,Oman
+865,England,India,Muscat,India,field,236,327,3,10,50,ODI,2,8,1,4,India
+866,India,England,Auckland,India,field,270,314,3,6,50,ODI,4,8,5,3,England
+867,Oman,India,Auckland,Oman,bat,250,255,7,9,50,ODI,7,7,4,1,India
+868,South Africa,Oman,Sydney,South Africa,bat,306,296,10,7,50,ODI,1,5,2,1,South Africa
+869,New Zealand,Australia,London,Australia,field,158,133,9,7,20,T20,5,8,0,3,New Zealand
+870,Australia,Oman,Sydney,Australia,field,127,194,6,8,20,T20,6,2,3,2,Oman
+871,Australia,New Zealand,Delhi,Australia,field,189,176,5,4,20,T20,6,8,0,4,Australia
+872,Oman,South Africa,Sydney,Oman,bat,158,139,3,4,20,T20,2,1,1,5,Oman
+873,Australia,Afghanistan,Chennai,Australia,bat,162,196,9,7,20,T20,6,7,1,3,Afghanistan
+874,Oman,Afghanistan,Mumbai,Afghanistan,bat,169,192,4,5,20,T20,7,6,1,3,Afghanistan
+875,England,New Zealand,Chennai,England,bat,284,247,6,10,50,ODI,2,4,4,3,England
+876,Australia,India,Dubai,India,field,156,171,4,5,20,T20,5,6,5,3,India
+877,Afghanistan,Australia,Mumbai,Australia,bat,298,278,9,6,50,ODI,10,2,5,2,Afghanistan
+878,Afghanistan,Oman,Sydney,Afghanistan,field,276,347,9,7,50,ODI,1,2,2,1,Oman
+879,New Zealand,Australia,Sydney,Australia,bat,147,161,8,4,20,T20,2,1,0,4,Australia
+880,South Africa,Australia,Sydney,Australia,bat,293,337,9,6,50,ODI,9,3,4,2,Australia
+881,South Africa,Afghanistan,Delhi,South Africa,bat,140,187,6,4,20,T20,4,8,4,0,Afghanistan
+882,New Zealand,Oman,Mumbai,Oman,bat,184,172,5,6,20,T20,5,7,3,5,New Zealand
+883,Oman,South Africa,Auckland,South Africa,bat,133,121,10,3,20,T20,6,1,1,0,Oman
+884,South Africa,Afghanistan,Cape Town,South Africa,field,248,268,6,6,50,ODI,3,9,0,5,Afghanistan
+885,England,New Zealand,Delhi,England,bat,310,319,6,7,50,ODI,8,5,3,5,New Zealand
+886,Oman,New Zealand,London,New Zealand,field,218,336,5,5,50,ODI,9,4,1,2,New Zealand
+887,England,India,Auckland,England,field,148,165,6,4,20,T20,1,2,4,5,India
+888,England,South Africa,Sydney,South Africa,field,326,345,3,4,50,ODI,5,3,3,3,South Africa
+889,Oman,Afghanistan,Auckland,Afghanistan,field,328,316,6,6,50,ODI,7,4,0,4,Oman
+890,India,Australia,Auckland,Australia,field,207,271,3,4,50,ODI,10,3,0,5,Australia
+891,India,South Africa,Chennai,India,field,224,327,7,8,50,ODI,1,8,5,1,South Africa
+892,India,South Africa,Cape Town,South Africa,bat,337,285,3,3,50,ODI,1,5,1,2,India
+893,Australia,Afghanistan,Auckland,Australia,field,152,155,9,7,20,T20,8,8,0,0,Afghanistan
+894,Afghanistan,Australia,London,Afghanistan,field,269,273,7,9,50,ODI,7,4,3,1,Australia
+895,Australia,England,Muscat,England,field,292,211,6,6,50,ODI,2,5,0,0,Australia
+896,Oman,South Africa,London,South Africa,field,219,237,10,10,50,ODI,9,8,5,2,South Africa
+897,Australia,New Zealand,Delhi,Australia,bat,154,124,9,8,20,T20,1,4,0,2,Australia
+898,Afghanistan,Oman,Cape Town,Oman,field,174,139,3,4,20,T20,3,1,5,1,Afghanistan
+899,New Zealand,Oman,Delhi,New Zealand,field,176,130,9,6,20,T20,5,5,2,3,New Zealand
+900,South Africa,India,Chennai,India,bat,283,303,9,7,50,ODI,6,2,4,1,India
+901,England,Oman,Dubai,Oman,field,310,271,4,9,50,ODI,2,9,4,1,England
+902,Afghanistan,New Zealand,Auckland,Afghanistan,bat,347,346,6,10,50,ODI,7,5,2,2,Afghanistan
+903,England,South Africa,London,England,field,294,201,3,3,50,ODI,3,6,5,1,England
+904,Afghanistan,Australia,Chennai,Australia,bat,282,302,8,5,50,ODI,10,2,4,1,Australia
+905,England,Oman,Chennai,England,field,321,350,7,4,50,ODI,2,9,3,3,Oman
+906,New Zealand,India,Mumbai,New Zealand,field,149,123,8,9,20,T20,4,6,1,1,New Zealand
+907,South Africa,New Zealand,Sydney,South Africa,bat,280,231,8,5,50,ODI,9,6,5,3,South Africa
+908,Oman,New Zealand,Sydney,New Zealand,field,149,132,6,6,20,T20,4,1,3,0,Oman
+909,Oman,South Africa,London,Oman,bat,169,173,10,9,20,T20,6,1,5,1,South Africa
+910,England,Australia,Sydney,Australia,field,322,231,10,5,50,ODI,1,8,2,2,England
+911,Oman,New Zealand,Chennai,New Zealand,bat,297,217,7,10,50,ODI,5,2,1,5,Oman
+912,Australia,England,London,Australia,field,131,139,3,10,20,T20,7,6,4,0,England
+913,South Africa,New Zealand,Auckland,South Africa,bat,171,138,9,9,20,T20,4,8,4,3,South Africa
+914,England,New Zealand,Dubai,England,bat,316,280,4,7,50,ODI,6,2,0,1,England
+915,England,Oman,Muscat,England,field,218,313,5,9,50,ODI,6,4,3,2,Oman
+916,South Africa,New Zealand,London,New Zealand,bat,195,193,4,5,20,T20,3,10,5,1,South Africa
+917,Oman,India,Sydney,Oman,field,152,125,6,10,20,T20,9,4,1,0,Oman
+918,Afghanistan,South Africa,Dubai,Afghanistan,bat,198,168,9,9,20,T20,1,6,5,1,Afghanistan
+919,India,Oman,Mumbai,India,bat,282,345,5,9,50,ODI,3,2,1,3,Oman
+920,England,Oman,Cape Town,England,bat,137,168,9,7,20,T20,10,10,2,1,Oman
+921,Afghanistan,New Zealand,Delhi,New Zealand,field,184,131,10,9,20,T20,5,2,2,1,Afghanistan
+922,New Zealand,Oman,Mumbai,Oman,field,163,185,9,6,20,T20,3,5,2,4,Oman
+923,South Africa,Afghanistan,Muscat,South Africa,field,316,254,10,9,50,ODI,4,2,5,1,South Africa
+924,Oman,New Zealand,Sydney,New Zealand,field,204,304,7,3,50,ODI,9,1,1,4,New Zealand
+925,India,South Africa,Cape Town,India,bat,229,318,3,4,50,ODI,6,9,0,5,South Africa
+926,Oman,Australia,Delhi,Australia,field,304,239,6,8,50,ODI,5,3,2,5,Oman
+927,India,New Zealand,Chennai,New Zealand,bat,161,142,6,3,20,T20,2,4,4,2,India
+928,South Africa,New Zealand,Dubai,South Africa,field,173,187,9,8,20,T20,5,10,4,2,New Zealand
+929,England,New Zealand,Auckland,New Zealand,field,206,324,7,9,50,ODI,1,1,0,3,New Zealand
+930,New Zealand,England,Auckland,New Zealand,field,186,122,7,10,20,T20,7,7,3,3,New Zealand
+931,Afghanistan,Oman,Cape Town,Afghanistan,bat,310,336,3,10,50,ODI,9,8,4,1,Oman
+932,Australia,England,Muscat,England,field,147,188,5,10,20,T20,1,1,3,1,England
+933,South Africa,England,Cape Town,England,field,268,298,6,3,50,ODI,5,10,1,0,England
+934,New Zealand,India,Muscat,India,bat,231,292,7,8,50,ODI,7,4,4,0,India
+935,New Zealand,England,Muscat,England,field,176,120,10,4,20,T20,7,3,0,5,New Zealand
+936,Afghanistan,South Africa,Delhi,South Africa,bat,312,292,3,3,50,ODI,1,2,1,0,Afghanistan
+937,New Zealand,England,Cape Town,England,bat,190,131,8,10,20,T20,7,7,0,1,New Zealand
+938,Oman,England,Chennai,England,bat,221,258,10,9,50,ODI,5,9,1,1,England
+939,Oman,South Africa,Auckland,Oman,bat,192,188,9,3,20,T20,1,4,0,0,Oman
+940,New Zealand,England,Dubai,New Zealand,field,240,346,4,3,50,ODI,4,2,0,0,England
+941,New Zealand,Oman,Delhi,Oman,bat,160,200,6,5,20,T20,2,4,4,3,Oman
+942,England,India,Sydney,England,bat,298,314,9,7,50,ODI,10,5,0,0,India
+943,Oman,Afghanistan,Sydney,Oman,field,218,230,6,7,50,ODI,4,4,5,2,Afghanistan
+944,South Africa,England,Muscat,England,bat,250,248,9,9,50,ODI,10,2,3,2,South Africa
+945,New Zealand,Australia,Auckland,Australia,field,210,236,8,6,50,ODI,3,9,3,5,Australia
+946,Australia,Oman,Sydney,Australia,field,122,180,8,6,20,T20,6,9,3,1,Oman
+947,Australia,South Africa,Muscat,Australia,bat,331,259,10,9,50,ODI,2,1,3,1,Australia
+948,India,Oman,London,India,bat,170,167,4,6,20,T20,9,7,2,2,India
+949,India,Afghanistan,Delhi,Afghanistan,field,282,235,9,6,50,ODI,9,9,2,4,India
+950,Oman,Australia,Sydney,Australia,bat,338,337,10,6,50,ODI,8,7,0,4,Oman
+951,Australia,Oman,Cape Town,Oman,field,224,224,4,10,50,ODI,3,6,5,3,Oman
+952,New Zealand,South Africa,Sydney,South Africa,field,164,141,3,4,20,T20,8,9,4,3,New Zealand
+953,England,Afghanistan,London,England,field,262,213,4,6,50,ODI,4,1,2,1,England
+954,New Zealand,Afghanistan,London,Afghanistan,bat,209,340,6,9,50,ODI,7,10,2,1,Afghanistan
+955,Afghanistan,Australia,Dubai,Afghanistan,bat,269,247,10,8,50,ODI,6,9,1,1,Afghanistan
+956,South Africa,Afghanistan,Dubai,Afghanistan,field,141,179,8,9,20,T20,1,8,5,3,Afghanistan
+957,England,Oman,Sydney,Oman,bat,183,132,9,7,20,T20,3,2,1,5,England
+958,Afghanistan,New Zealand,Cape Town,Afghanistan,field,144,120,10,9,20,T20,6,2,1,4,Afghanistan
+959,Afghanistan,India,Mumbai,India,bat,269,323,5,8,50,ODI,3,4,3,2,India
+960,Afghanistan,England,Delhi,Afghanistan,field,225,216,7,5,50,ODI,2,10,4,1,Afghanistan
+961,Afghanistan,New Zealand,Mumbai,Afghanistan,field,318,304,9,8,50,ODI,1,5,3,1,Afghanistan
+962,Australia,South Africa,Chennai,Australia,field,172,129,4,9,20,T20,2,4,2,2,Australia
+963,India,South Africa,Sydney,South Africa,field,159,174,9,6,20,T20,4,8,2,4,South Africa
+964,New Zealand,Australia,Dubai,Australia,field,166,146,3,4,20,T20,3,7,1,3,New Zealand
+965,South Africa,Afghanistan,Chennai,Afghanistan,field,328,231,4,10,50,ODI,3,5,0,3,South Africa
+966,Oman,England,Cape Town,England,field,136,170,8,3,20,T20,5,6,1,3,England
+967,England,New Zealand,Auckland,England,bat,232,212,4,6,50,ODI,8,8,5,0,England
+968,England,India,Delhi,England,bat,295,248,7,3,50,ODI,8,5,5,5,England
+969,England,Australia,Mumbai,England,bat,281,327,9,4,50,ODI,2,10,0,5,Australia
+970,Afghanistan,South Africa,Chennai,Afghanistan,field,350,319,8,6,50,ODI,3,6,3,3,Afghanistan
+971,Oman,Australia,Delhi,Australia,bat,165,161,6,10,20,T20,4,2,1,3,Oman
+972,India,South Africa,London,India,field,257,246,9,3,50,ODI,5,3,1,4,India
+973,Oman,England,Muscat,Oman,field,155,149,3,3,20,T20,9,3,4,4,Oman
+974,Oman,Afghanistan,London,Afghanistan,bat,226,340,6,8,50,ODI,10,1,5,1,Afghanistan
+975,England,New Zealand,Sydney,New Zealand,bat,257,264,4,4,50,ODI,1,6,2,2,New Zealand
+976,Afghanistan,New Zealand,Auckland,Afghanistan,bat,191,135,4,4,20,T20,7,2,4,1,Afghanistan
+977,Australia,England,London,England,bat,130,178,7,7,20,T20,8,8,1,1,England
+978,New Zealand,South Africa,Chennai,New Zealand,field,261,274,5,7,50,ODI,7,4,4,3,South Africa
+979,South Africa,India,Auckland,South Africa,bat,309,277,4,10,50,ODI,7,6,5,0,South Africa
+980,Australia,Oman,Dubai,Australia,bat,231,250,4,6,50,ODI,2,10,2,4,Oman
+981,Oman,South Africa,Cape Town,Oman,bat,251,307,8,3,50,ODI,4,3,3,0,South Africa
+982,New Zealand,India,Muscat,India,bat,157,160,6,8,20,T20,6,6,4,4,India
+983,New Zealand,Australia,Muscat,New Zealand,bat,133,186,7,8,20,T20,5,8,2,1,Australia
+984,India,Australia,Auckland,India,bat,283,346,3,4,50,ODI,1,3,4,1,Australia
+985,Afghanistan,Oman,Mumbai,Afghanistan,bat,125,123,6,8,20,T20,1,7,3,1,Afghanistan
+986,New Zealand,India,Chennai,India,bat,148,167,7,6,20,T20,6,2,0,4,India
+987,Afghanistan,England,Dubai,England,bat,210,224,7,10,50,ODI,5,3,1,2,England
+988,England,Oman,Chennai,England,bat,202,234,6,10,50,ODI,10,5,4,3,Oman
+989,Afghanistan,India,Mumbai,Afghanistan,field,135,147,5,9,20,T20,1,5,3,1,India
+990,Australia,India,Chennai,India,bat,158,166,5,10,20,T20,1,10,1,1,India
+991,England,South Africa,Auckland,England,bat,243,227,5,5,50,ODI,9,6,1,4,England
+992,Australia,Oman,Delhi,Australia,field,308,344,3,3,50,ODI,2,10,0,3,Oman
+993,New Zealand,Oman,London,Oman,field,244,276,10,5,50,ODI,10,4,1,1,Oman
+994,Oman,South Africa,Sydney,Oman,field,315,262,3,7,50,ODI,6,4,1,2,Oman
+995,Australia,England,Muscat,Australia,field,208,308,4,4,50,ODI,8,6,1,5,England
+996,Afghanistan,New Zealand,Muscat,New Zealand,field,163,124,3,10,20,T20,9,4,2,3,Afghanistan
+997,Afghanistan,South Africa,Chennai,Afghanistan,field,180,165,4,4,20,T20,10,6,5,4,Afghanistan
+998,Oman,England,Cape Town,England,bat,185,136,4,5,20,T20,8,2,2,0,Oman
+999,South Africa,Australia,Cape Town,South Africa,field,307,311,9,9,50,ODI,8,10,0,2,Australia
+1000,New Zealand,Afghanistan,Auckland,Afghanistan,field,228,339,4,4,50,ODI,1,1,1,1,Afghanistan
