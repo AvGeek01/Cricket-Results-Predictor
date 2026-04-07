@@ -143,10 +143,6 @@ def predict_dataset(X):
 
     for x in X:
 
-        if x[5] > x[6] and x[7] > x[8]:
-            predictions.append(1)
-            continue
-
         z = sum(weights_log[j]*x[j] for j in range(len(x)))
         log = 1 if sigmoid(z) >= 0.5 else 0
 
@@ -208,8 +204,6 @@ def get_input():
     return row
 
 def predict_single(x):
-    if x[5] > x[6] and x[7] > x[8]:
-        return 1,1,1,1,1
     z = sum(weights_log[j]*x[j] for j in range(len(x)))
     log = 1 if sigmoid(z) >= 0.5 else 0
     knn = knn_predict(train_X, train_y, x)
@@ -238,13 +232,13 @@ def display(row, results):
     print("\nFINAL WINNER:", decode(final))
     print("------------------")
 
-
 #MENU SYSTEM
 
 while True:
     print("\n1. Test Model on Test Dataset")
     print("2. Predict Manually (Pre-Match)")
-    print("3. Exit")
+    print("3. Predict Live (In-Match)")
+    print("4. Exit")
     choice = input("Enter choice: ")
     if choice == "1":
         test_data = load_dataset("test.csv")
@@ -259,5 +253,52 @@ while True:
         results = predict_single(x)
         display(row, results)
 
-    else:
+    elif choice == "3":
+        print("\n--- LIVE MATCH SETUP ---")
+        row = get_input()
+        x_base = encode_row(row)
+        team1 = row[1]
+        team2 = row[2]
+        
+        while True:
+            score_input = input(f"\nEnter live score (runs-wickets-overs) or 'q' to stop: ")
+            if score_input.lower() == 'q':
+                break
+            try:
+                parts = score_input.split('-')
+                runs = int(parts[0])
+                wickets = int(parts[1])
+                overs = float(parts[2]) if len(parts) == 3 else 15.0 # Fallback to 15.0 if overs omitted
+                
+                x_live = list(x_base) # Create a copy 
+                
+                # Simple logic to convert live score into an ML feature boost
+                # We calculate run rate using overs and factor that in
+                run_rate = runs / max(0.1, overs)
+                perf_ratio = (run_rate / max(1, wickets)) / 2.0
+                x_live[7] = min(1.0, x_live[7] * (0.3 + 0.7 * perf_ratio))
+                
+                z = sum(weights_log[j]*x_live[j] for j in range(len(x_live)))
+                prob = sigmoid(z) * 100
+                
+                total_overs = 20 if str(row[11]).upper() == "T20" else 50
+                if wickets >= 10:
+                    projected_score = runs
+                else:
+                    remaining_overs = max(0, total_overs - overs)
+                    projected_score = int(runs + (run_rate * remaining_overs))
+                
+                print(f"\n--- LIVE ML PREDICTION SCORE ---")
+                print(f"Projected Score ({total_overs} Overs): {projected_score}")
+                print(f"{team1} Win Probability: {prob:.1f}%")
+                print(f"{team2} Win Probability: {100 - prob:.1f}%")
+                
+                results = predict_single(x_live)
+                display(row, results)
+            except (ValueError, IndexError):
+                print("Invalid input. Use format: runs-wickets-overs (e.g. 150-3-15.2)")
+
+    elif choice == "4":
         break
+    else:
+        print("Invalid choice, please try again.")
