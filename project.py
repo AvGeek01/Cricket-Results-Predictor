@@ -27,16 +27,27 @@ def encode_row(row):
     }
     toss = 1 if row[5] == "bat" else 0
     match_type = 1 if row[11] == "T20" else 2
+
+    # Rank encoding: lower rank number = stronger team.
+    # Use 1/rank so rank 1 → 1.0, rank 20 → 0.05 (clean, no negatives)
+    rank1 = max(1, row[12])
+    rank2 = max(1, row[13])
+    rank1_enc = 1.0 / rank1         # team1 strength: high = good
+    rank2_enc = 1.0 / rank2         # team2 strength: high = good
+    # Rank differential: high value = team1 is stronger (lower rank number)
+    rank_diff = (rank1_enc - rank2_enc + 1.0) / 2.0  # normalised to [0,1]
+
     return [
-        team_map[row[1]] / 10,
-        team_map[row[2]] / 10,
-        team_map[row[4]] / 10,
+        team_map.get(row[1], 5) / 10,
+        team_map.get(row[2], 5) / 10,
+        team_map.get(row[4], 5) / 10,
         toss,
         match_type / 2,
-        (10 - row[12]) / 10,
-        (10 - row[13]) / 10,
-        row[14] / 5,
-        row[15] / 5
+        rank1_enc,          # x[5]: team1 rank strength (higher = stronger)
+        rank2_enc,          # x[6]: team2 rank strength (higher = stronger)
+        row[14] / 5,        # x[7]: team1 form
+        row[15] / 5,        # x[8]: team2 form
+        rank_diff           # x[9]: direct rank advantage for team1
     ]
 
 #DATA PREP
@@ -58,18 +69,19 @@ def sigmoid(x):
         return 0
     return 1/(1+2.71828**(-x))
 
-# Logistic Regression
-def train_logistic(X, y, lr=0.001, epochs=200):
-    w = [0]*len(X[0])
+# Logistic Regression (with bias term)
+def train_logistic(X, y, lr=0.05, epochs=1000):
+    w = [0.0] * len(X[0])
+    bias = 0.0
     for _ in range(epochs):
         for i in range(len(X)):
-            z = sum(w[j]*X[i][j] for j in range(len(w)))
+            z = sum(w[j] * X[i][j] for j in range(len(w))) + bias
             pred = sigmoid(z)
             error = pred - y[i]
-
             for j in range(len(w)):
-                w[j] -= lr * error * X[i][j]    
-    return w
+                w[j] -= lr * error * X[i][j]
+            bias -= lr * error
+    return w, bias
 
 # KNN
 def distance(a,b):
@@ -87,11 +99,25 @@ def knn_predict(train_X, train_y, test_x, k=3):
         votes[label] = votes.get(label,0)+1    
     return max(votes, key=votes.get)
 
-# Decision Tree (rule-based)
+# Decision Tree (rank + form aware)
 def simple_tree_predict(x):
-    if x[5] > x[6] and x[7] >= x[8]:
+    # x[5]=team1 rank strength, x[6]=team2 rank strength
+    # x[7]=team1 form,          x[8]=team2 form
+    # x[9]=rank differential (>0.5 means team1 stronger)
+    rank_advantage = x[9] > 0.5          # team1 has better (lower) rank
+    form_advantage = x[7] >= x[8]        # team1 has equal or better form
+    strong_rank_edge = x[9] > 0.7        # team1 is much stronger by rank
+
+    if strong_rank_edge:
+        return 1  # dominant rank advantage overrides form
+    if rank_advantage and form_advantage:
         return 1
     return 0
+
+# Rank Expert: pure rank-based vote (weight=3 in ensemble)
+# x[9] = rank_diff: >0.5 means team1 has better rank, <0.5 means team2 better
+def rank_expert_predict(x):
+    return 1 if x[9] > 0.5 else 0
 
 # Naive Bayes
 def naive_bayes(train_X, train_y, test_x):
@@ -114,12 +140,12 @@ def naive_bayes(train_X, train_y, test_x):
     return best_class
 
 # Perceptron
-def train_perceptron(X, y, lr=0.01, epochs=200):
-    w = [0]*len(X[0])
-    bias = 0
+def train_perceptron(X, y, lr=0.01, epochs=500):
+    w = [0.0] * len(X[0])
+    bias = 0.0
     for _ in range(epochs):
         for i in range(len(X)):
-            z = sum(w[j]*X[i][j] for j in range(len(w))) + bias
+            z = sum(w[j] * X[i][j] for j in range(len(w))) + bias
             pred = 1 if z >= 0 else 0
             error = y[i] - pred
             for j in range(len(w)):
@@ -132,7 +158,7 @@ def train_perceptron(X, y, lr=0.01, epochs=200):
 train_data = load_dataset("train.csv")
 train_X, train_y = prepare_classification(train_data)
 
-weights_log = train_logistic(train_X, train_y)
+weights_log, bias_log = train_logistic(train_X, train_y)
 weights_perc, bias_perc = train_perceptron(train_X, train_y)
 
 
@@ -143,18 +169,20 @@ def predict_dataset(X):
 
     for x in X:
 
-        z = sum(weights_log[j]*x[j] for j in range(len(x)))
+        z = sum(weights_log[j] * x[j] for j in range(len(x))) + bias_log
         log = 1 if sigmoid(z) >= 0.5 else 0
 
         knn = knn_predict(train_X, train_y, x)
         tree = simple_tree_predict(x)
         nb = naive_bayes(train_X, train_y, x)
+        rank_exp = rank_expert_predict(x)
 
-        z = sum(weights_perc[j]*x[j] for j in range(len(x))) + bias_perc
+        z = sum(weights_perc[j] * x[j] for j in range(len(x))) + bias_perc
         perc = 1 if z >= 0 else 0
 
-        score = log*2 + perc*2 + knn + tree + nb
-        final = 1 if score >= 4 else 0
+        # Max score = 2+2+1+1+1+3 = 10; threshold = 5
+        score = log*2 + perc*2 + knn + tree + nb + rank_exp*3
+        final = 1 if score >= 5 else 0
 
         predictions.append(final)
 
@@ -203,15 +231,16 @@ def get_input():
 
     return row
 
-def predict_single(x):
-    z = sum(weights_log[j]*x[j] for j in range(len(x)))
+def predict_single(x, z_boost=0):
+    z = sum(weights_log[j] * x[j] for j in range(len(x))) + bias_log + z_boost
     log = 1 if sigmoid(z) >= 0.5 else 0
     knn = knn_predict(train_X, train_y, x)
     tree = simple_tree_predict(x)
     nb = naive_bayes(train_X, train_y, x)
-    z = sum(weights_perc[j]*x[j] for j in range(len(x))) + bias_perc
-    perc = 1 if z >= 0 else 0
-    return log, knn, tree, nb, perc
+    rank_exp = rank_expert_predict(x)
+    z_perc = sum(weights_perc[j] * x[j] for j in range(len(x))) + bias_perc + z_boost
+    perc = 1 if z_perc >= 0 else 0
+    return log, knn, tree, nb, perc, rank_exp
 
 def display(row, results):
     team1 = row[1]
@@ -219,7 +248,7 @@ def display(row, results):
     def decode(p):
         return team1 if p == 1 else team2
 
-    log, knn, tree, nb, perc = results
+    log, knn, tree, nb, perc, rank_exp = results
 
     print("\n--- PREDICTION ---")
     print("Logistic:", decode(log))
@@ -227,78 +256,111 @@ def display(row, results):
     print("Decision Tree:", decode(tree))
     print("Naive Bayes:", decode(nb))
     print("Perceptron:", decode(perc))
-    score = log*2 + perc*2 + knn + tree + nb
-    final = 1 if score >= 4 else 0
+    print("Rank Expert:", decode(rank_exp))
+    # Max score = 10, threshold = 5
+    score = log*2 + perc*2 + knn + tree + nb + rank_exp*3
+    final = 1 if score >= 5 else 0
     print("\nFINAL WINNER:", decode(final))
     print("------------------")
 
 #MENU SYSTEM
 
-while True:
-    print("\n1. Test Model on Test Dataset")
-    print("2. Predict Manually (Pre-Match)")
-    print("3. Predict Live (In-Match)")
-    print("4. Exit")
-    choice = input("Enter choice: ")
-    if choice == "1":
-        test_data = load_dataset("test.csv")
-        test_X, test_y = prepare_classification(test_data)
-        preds = predict_dataset(test_X)
-        print("\nAccuracy:", accuracy(test_y, preds), "%")
-        show_samples(test_data, preds)
+if __name__ == "__main__":
+    while True:
+        print("\n1. Test Model on Test Dataset")
+        print("2. Predict Manually (Pre-Match)")
+        print("3. Predict Live (In-Match)")
+        print("4. Exit")
+        choice = input("Enter choice: ")
+        if choice == "1":
+            test_data = load_dataset("test.csv")
+            test_X, test_y = prepare_classification(test_data)
+            preds = predict_dataset(test_X)
+            print("\nAccuracy:", accuracy(test_y, preds), "%")
+            show_samples(test_data, preds)
 
-    elif choice == "2":
-        row = get_input()
-        x = encode_row(row)
-        results = predict_single(x)
-        display(row, results)
+        elif choice == "2":
+            row = get_input()
+            x = encode_row(row)
+            results = predict_single(x)
+            display(row, results)
 
-    elif choice == "3":
-        print("\n--- LIVE MATCH SETUP ---")
-        row = get_input()
-        x_base = encode_row(row)
-        team1 = row[1]
-        team2 = row[2]
-        
-        while True:
-            score_input = input(f"\nEnter live score (runs-wickets-overs) or 'q' to stop: ")
-            if score_input.lower() == 'q':
-                break
-            try:
-                parts = score_input.split('-')
-                runs = int(parts[0])
-                wickets = int(parts[1])
-                overs = float(parts[2]) if len(parts) == 3 else 15.0 # Fallback to 15.0 if overs omitted
-                
-                x_live = list(x_base) # Create a copy 
-                
-                # Simple logic to convert live score into an ML feature boost
-                # We calculate run rate using overs and factor that in
-                run_rate = runs / max(0.1, overs)
-                perf_ratio = (run_rate / max(1, wickets)) / 2.0
-                x_live[7] = min(1.0, x_live[7] * (0.3 + 0.7 * perf_ratio))
-                
-                z = sum(weights_log[j]*x_live[j] for j in range(len(x_live)))
-                prob = sigmoid(z) * 100
-                
-                total_overs = 20 if str(row[11]).upper() == "T20" else 50
-                if wickets >= 10:
-                    projected_score = runs
-                else:
-                    remaining_overs = max(0, total_overs - overs)
-                    projected_score = int(runs + (run_rate * remaining_overs))
-                
-                print(f"\n--- LIVE ML PREDICTION SCORE ---")
-                print(f"Projected Score ({total_overs} Overs): {projected_score}")
-                print(f"{team1} Win Probability: {prob:.1f}%")
-                print(f"{team2} Win Probability: {100 - prob:.1f}%")
-                
-                results = predict_single(x_live)
-                display(row, results)
-            except (ValueError, IndexError):
-                print("Invalid input. Use format: runs-wickets-overs (e.g. 150-3-15.2)")
+        elif choice == "3":
+            print("\n--- LIVE MATCH SETUP ---")
+            row = get_input()
+            x_base = encode_row(row)
+            team1 = row[1]
+            team2 = row[2]
+            
+            while True:
+                batting_choice = input(f"\nWhich team is batting? (1 for {team1}, 2 for {team2}, 'q' to stop): ")
+                if batting_choice.lower() == 'q':
+                    break
+                if batting_choice not in ['1', '2']:
+                    print("Invalid choice.")
+                    continue
+                    
+                score_input = input(f"Enter live score for Team {batting_choice} (runs-wickets-overs) or 'q' to stop: ")
+                if score_input.lower() == 'q':
+                    break
+                try:
+                    parts = score_input.split('-')
+                    runs = int(parts[0])
+                    wickets = int(parts[1])
+                    overs = float(parts[2]) if len(parts) == 3 else 15.0 # Fallback to 15.0 if overs omitted
+                    
+                    x_live = list(x_base) # Create a copy 
+                    
+                    # Simple logic to convert live score into an ML feature boost
+                    # We calculate run rate using overs and factor that in
+                    run_rate = runs / max(0.1, overs)
+                    perf_ratio = (run_rate / max(1, wickets)) / 2.0
+                    
+                    if batting_choice == '1':
+                        x_live[7] = min(1.0, x_live[7] * (0.3 + 0.7 * perf_ratio))
+                    else:
+                        x_live[8] = min(1.0, x_live[8] * (0.3 + 0.7 * perf_ratio))
+                    
+                    total_overs = 20 if str(row[11]).upper() == "T20" else 50
+                    if wickets >= 10:
+                        projected_score = runs
+                    else:
+                        remaining_overs = max(0, total_overs - overs)
+                        remaining_wickets = 10 - wickets
+                        
+                        # Estimate maximum overs they can survive based on remaining wickets
+                        overs_per_wicket = 2.0 if total_overs == 20 else 5.0
+                        max_survivable_overs = remaining_wickets * overs_per_wicket
+                        effective_remaining_overs = min(remaining_overs, max_survivable_overs)
+                        
+                        # Scoring capability decays as wickets fall
+                        resource_factor = 0.5 + 0.5 * (remaining_wickets / 10.0)
+                        
+                        projected_score = int(runs + (run_rate * effective_remaining_overs * resource_factor))
+                    
+                    par_score = 160 if total_overs == 20 else 260
+                    score_diff = projected_score - par_score
+                    progress_factor = min(1.0, overs / total_overs)
+                    
+                    if batting_choice == '1':
+                        z_boost = (score_diff * 0.05) * progress_factor
+                    else:
+                        z_boost = -(score_diff * 0.05) * progress_factor
+                    
+                    z = sum(weights_log[j]*x_live[j] for j in range(len(x_live))) + z_boost
+                    prob = sigmoid(z) * 100
+                    
+                    print(f"\n--- LIVE ML PREDICTION SCORE ---")
+                    print(f"Projected Score ({total_overs} Overs): {projected_score}")
+                    print(f"{team1} Win Probability: {prob:.1f}%")
+                    print(f"{team2} Win Probability: {100 - prob:.1f}%")
+                    
+                    results = predict_single(x_live, z_boost)
+                    display(row, results)
+                except (ValueError, IndexError):
+                    print("Invalid input. Use format: runs-wickets-overs (e.g. 150-3-15.2)")
 
-    elif choice == "4":
-        break
-    else:
-        print("Invalid choice, please try again.")
+        elif choice == "4":
+            break
+        else:
+            print("Invalid choice, please try again.")
