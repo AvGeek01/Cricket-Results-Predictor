@@ -293,6 +293,13 @@ if __name__ == "__main__":
             team2 = row[2]
             
             while True:
+                innings_choice = input("\nSelect Innings (1 or 2, 'q' to stop):\n1. 1st Innings (Setting Score)\n2. 2nd Innings (Chasing Score)\nChoice: ")
+                if innings_choice.lower() == 'q':
+                    break
+                if innings_choice not in ['1', '2']:
+                    print("Invalid choice.")
+                    continue
+
                 batting_choice = input(f"\nWhich team is batting? (1 for {team1}, 2 for {team2}, 'q' to stop): ")
                 if batting_choice.lower() == 'q':
                     break
@@ -300,6 +307,17 @@ if __name__ == "__main__":
                     print("Invalid choice.")
                     continue
                     
+                target_score = None
+                if innings_choice == '2':
+                    target_input = input("Enter Target Score set in 1st Innings (or 'q' to stop): ")
+                    if target_input.lower() == 'q':
+                        break
+                    try:
+                        target_score = int(target_input)
+                    except ValueError:
+                        print("Invalid target score.")
+                        continue
+                        
                 score_input = input(f"Enter live score for Team {batting_choice} (runs-wickets-overs) or 'q' to stop: ")
                 if score_input.lower() == 'q':
                     break
@@ -338,8 +356,12 @@ if __name__ == "__main__":
                         
                         projected_score = int(runs + (run_rate * effective_remaining_overs * resource_factor))
                     
-                    par_score = 160 if total_overs == 20 else 260
-                    score_diff = projected_score - par_score
+                    if innings_choice == '1':
+                        par_score = 160 if total_overs == 20 else 260
+                        score_diff = projected_score - par_score
+                    else:
+                        score_diff = projected_score - target_score
+                        
                     progress_factor = min(1.0, overs / total_overs)
                     
                     if batting_choice == '1':
@@ -351,7 +373,15 @@ if __name__ == "__main__":
                     prob = sigmoid(z) * 100
                     
                     print(f"\n--- LIVE ML PREDICTION SCORE ---")
-                    print(f"Projected Score ({total_overs} Overs): {projected_score}")
+                    if innings_choice == '1':
+                        print(f"Projected Score ({total_overs} Overs): {projected_score}")
+                    else:
+                        print(f"Projected Score ({total_overs} Overs): {projected_score} (Target: {target_score})")
+                        if projected_score >= target_score:
+                            print(f"Status: Batting team is on track to chase the target.")
+                        else:
+                            print(f"Status: Batting team is falling short of the target.")
+
                     print(f"{team1} Win Probability: {prob:.1f}%")
                     print(f"{team2} Win Probability: {100 - prob:.1f}%")
                     
