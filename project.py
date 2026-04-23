@@ -242,7 +242,7 @@ def predict_single(x, z_boost=0):
     perc = 1 if z_perc >= 0 else 0
     return log, knn, tree, nb, perc, rank_exp
 
-def display(row, results):
+def display(row, results, override_winner=None):
     team1 = row[1]
     team2 = row[2]
     def decode(p):
@@ -259,7 +259,12 @@ def display(row, results):
     print("Rank Expert:", decode(rank_exp))
     # Max score = 10, threshold = 5
     score = log*2 + perc*2 + knn + tree + nb + rank_exp*3
-    final = 1 if score >= 5 else 0
+    
+    if override_winner is not None:
+        final = override_winner
+    else:
+        final = 1 if score >= 5 else 0
+        
     print("\nFINAL WINNER:", decode(final))
     print("------------------")
 
@@ -386,7 +391,14 @@ if __name__ == "__main__":
                     print(f"{team2} Win Probability: {100 - prob:.1f}%")
                     
                     results = predict_single(x_live, z_boost)
-                    display(row, results)
+                    override_winner = None
+                    if innings_choice == '2':
+                        if projected_score >= target_score:
+                            override_winner = 1 if batting_choice == '1' else 0
+                        else:
+                            override_winner = 0 if batting_choice == '1' else 1
+                            
+                    display(row, results, override_winner)
                 except (ValueError, IndexError):
                     print("Invalid input. Use format: runs-wickets-overs (e.g. 150-3-15.2)")
 
