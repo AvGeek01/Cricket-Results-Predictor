@@ -1,7 +1,12 @@
+#comments for understanding and presentation
+import os
+base_dir = os.path.abspath(os.path.dirname(__file__))
+
 #LOAD DATA
 
 def load_dataset(filename):
-    with open(filename, "r") as file:
+    filepath = os.path.join(base_dir, filename)
+    with open(filepath, "r") as file:
         lines = file.readlines()
     data = []
     for i in range(1, len(lines)):
