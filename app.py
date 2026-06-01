@@ -9,7 +9,11 @@ app = Flask(__name__,
 
 @app.route('/')
 def home():
-    return render_template('index.html')
+    try:
+        return render_template('index.html')
+    except Exception as e:
+        import traceback
+        return f"<pre>Error:\n{str(e)}\n\nTraceback:\n{traceback.format_exc()}</pre>", 500
 
 @app.route('/predict', methods=['POST'])
 def predict():
