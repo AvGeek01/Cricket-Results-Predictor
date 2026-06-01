@@ -160,8 +160,13 @@ def train_perceptron(X, y, lr=0.01, epochs=500):
 
 #TRAIN
 
-train_data = load_dataset("train.csv")
-train_X, train_y = prepare_classification(train_data)
+try:
+    train_data = load_dataset("train.csv")
+    train_X, train_y = prepare_classification(train_data)
+except Exception as e:
+    print(f"WARNING: Could not load train.csv during initialization. {e}")
+    train_data = []
+    train_X, train_y = [], []
 
 # Precomputed weights to prevent Vercel Serverless timeouts (500 errors)
 weights_log = [-0.0857255848230602, -0.37783643265234473, 0.008023984933668744, 0.10763776413555026, 0.2883866896922004, 1.3004942636994923, -1.0623247398216327, 1.2288946766200346, -0.7987003955540787, 0.9323776288599644]
