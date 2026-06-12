@@ -1,12 +1,9 @@
 #comments for understanding and presentation
-import os
-base_dir = os.path.abspath(os.path.dirname(__file__))
 
 #LOAD DATA
 
 def load_dataset(filename):
-    filepath = os.path.join(base_dir, filename)
-    with open(filepath, "r") as file:
+    with open(filename, "r") as file:
         lines = file.readlines()
     data = []
     for i in range(1, len(lines)):
@@ -160,19 +157,11 @@ def train_perceptron(X, y, lr=0.01, epochs=500):
 
 #TRAIN
 
-try:
-    train_data = load_dataset("train.csv")
-    train_X, train_y = prepare_classification(train_data)
-except Exception as e:
-    print(f"WARNING: Could not load train.csv during initialization. {e}")
-    train_data = []
-    train_X, train_y = [], []
+train_data = load_dataset("train.csv")
+train_X, train_y = prepare_classification(train_data)
 
-# Precomputed weights to prevent Vercel Serverless timeouts (500 errors)
-weights_log = [-0.0857255848230602, -0.37783643265234473, 0.008023984933668744, 0.10763776413555026, 0.2883866896922004, 1.3004942636994923, -1.0623247398216327, 1.2288946766200346, -0.7987003955540787, 0.9323776288599644]
-bias_log = -0.49806374580331664
-weights_perc = [0.0020000000000020774, 0.004999999999997489, 0.010999999999998681, 3.469446951953614e-18, -0.005000000000007617, 0.02356349206348281, -0.021404761904747598, 0.025999999999996238, -0.006000000000005282, 0.012484126984130671]
-bias_perc = -0.019999999999999997
+weights_log, bias_log = train_logistic(train_X, train_y)
+weights_perc, bias_perc = train_perceptron(train_X, train_y)
 
 
 #TESTING
