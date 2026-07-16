@@ -1,22 +1,112 @@
 # Cricket-Results-Predictor
-This project focuses on developing a Machine Learning system capable of predicting cricket match outcomes and scores based on historical match data and key influencing factors. The system takes into account various parameters such as team performance, rankings, toss decisions, match format, and recent form to generate accurate predictions.
 
-The primary objective of this project is twofold:
+A full-stack machine learning web application that predicts **cricket match winners**, **first innings scores**, and **live win probabilities** using multiple machine learning algorithms implemented entirely from scratch.
 
-To predict the total score of a team in a match (regression task)
-To predict the winning team (classification task)
+**Live Demo:** https://rish20.pythonanywhere.com/
 
-A structured dataset of cricket matches is used, containing features like team names, venue, toss winner, match type, player performance indicators, and historical trends. These features are preprocessed and converted into numerical form to make them suitable for machine learning models.
+---
 
-The system implements multiple machine learning algorithms developed from scratch, including:
+## Overview
 
-Linear Regression (for score prediction)
-Logistic Regression (for winner prediction)
-K-Nearest Neighbors (KNN)
-Decision Tree
-Naive Bayes
-Perceptron
+This project aims to predict cricket match outcomes using historical match data and key performance indicators. The application analyzes factors such as team rankings, recent form, toss decisions and match format to generate intelligent predictions for both pre-match and live match scenarios.
 
-Each algorithm independently analyzes the input data and produces predictions. A final decision is made based on the consensus or best-performing model. The system also computes win probabilities, providing a more detailed analytical insight rather than just a binary prediction.
+---
 
-The dataset is divided into training and testing sets using a 5-part split approach, ensuring robust evaluation and minimizing overfitting. Model performance is assessed using accuracy metrics for classification and error-based metrics for regression.
+## Features
+
+- Predicts the winning team before a match begins
+- Predicts projected first innings score
+- Live match prediction using runs, wickets, and overs
+- Calculates win probabilities
+- Ensemble prediction using multiple ML algorithms
+- Responsive Flask-based web dashboard
+- Historical cricket dataset with engineered features
+
+---
+
+## Machine Learning Algorithms
+
+The following algorithms were implemented **from scratch**, without using machine learning libraries:
+
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree
+- Naive Bayes
+- Perceptron
+- Weighted Ensemble Voting
+
+---
+
+## Features Used
+
+The prediction models consider multiple match attributes, including:
+
+- Team 1
+- Team 2
+- Toss Winner
+- Toss Decision
+- Match Format (T20 / ODI)
+- Team Rankings
+- Recent Team Form
+- Rank Differential
+- Team Strength Encoding
+
+---
+
+## Dataset
+
+The model is trained on a structured historical cricket dataset containing information such as:
+
+- Teams
+- Match Format
+- Toss Winner
+- Toss Decision
+- Team Rankings
+- Recent Form
+- Match Winner
+
+The dataset is divided using a **5-part split**, with **80% used for training** and **20% reserved for testing** to ensure reliable evaluation and minimize overfitting.
+
+---
+
+## Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### Backend
+- Python
+- Flask
+
+### Machine Learning
+- Custom Machine Learning Algorithms (No ML Libraries)
+
+---
+
+## Project Structure
+
+```text
+Cricket-Match-Predictor/
+│
+├── app.py
+├── project.py
+├── cricket_dataset.csv
+├── train.csv
+├── test.csv
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│
+└── README.md
+```
+
+---
+
+This project is intended for educational and research purposes.
