@@ -49,8 +49,6 @@ function toggleTargetScore() {
 
 async function predict() {
     const payload = { mode: currentMode };
-
-    // Base inputs
     payload.team1 = document.getElementById("team1").value.trim();
     payload.team2 = document.getElementById("team2").value.trim();
     payload.matchType = document.getElementById("matchType").value;
