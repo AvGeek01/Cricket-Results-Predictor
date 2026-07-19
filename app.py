@@ -97,7 +97,7 @@ def predict():
                 z_boost = -(score_diff * 0.05) * progress_factor
                 
             # Probabilities using logistic regression
-            z = sum(project.weights_log[j]*x_live[j] for j in range(len(x_live))) + project.bias_log + z_boost
+            z = sum(project.weights_log[j]*x_live[j] for j in range(len(x_live))) + z_boost
             prob_team1 = project.sigmoid(z) * 100
             prob_team2 = 100 - prob_team1
             
@@ -106,17 +106,15 @@ def predict():
             log, knn, tree, nb, perc, rank_exp = results
             score_ensemble = log*2 + perc*2 + knn + tree + nb + rank_exp*3
             
-            override_winner = None
             if innings == '2':
                 if projected_score >= target_score:
                     override_winner = 1 if batting_team == '1' else 0
                 else:
                     override_winner = 0 if batting_team == '1' else 1
-            
-            if override_winner is not None:
-                final = override_winner
             else:
-                final = 1 if score_ensemble >= 5 else 0
+                override_winner = 1 if prob_team1 >= 50 else 0
+            
+            final = override_winner
                 
             winner = team1 if final == 1 else team2
             
@@ -131,6 +129,10 @@ def predict():
 
         except Exception as e:
             return jsonify({"error": str(e)}), 400
+
+if __name__ == '__main__':
+    app.run(debug=True, use_reloader=False)
+
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
