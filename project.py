@@ -393,12 +393,14 @@ if __name__ == "__main__":
                     print(f"{team2} Win Probability: {100 - prob:.1f}%")
                     
                     results = predict_single(x_live, z_boost)
-                    override_winner = None
+                    
                     if innings_choice == '2':
                         if projected_score >= target_score:
                             override_winner = 1 if batting_choice == '1' else 0
                         else:
                             override_winner = 0 if batting_choice == '1' else 1
+                    else:
+                        override_winner = 1 if prob >= 50 else 0
                             
                     display(row, results, override_winner)
                 except (ValueError, IndexError):
